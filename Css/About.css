@@ -80,6 +80,10 @@ ul.pull-right {
 	height: 360px;
 }
 
+.page-head {
+	height: 300px;
+}
+
 /* Fonts */
 
 h1 {
@@ -126,10 +130,6 @@ p {
 .yellow-line {
 	border-top: 1px solid #fcc326;
 	height: 20px;
-}
-
-.page-head {
-	height: 300px;
 }
 
 .col-md-3 {
