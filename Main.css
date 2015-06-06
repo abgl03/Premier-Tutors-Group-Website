@@ -1,0 +1,47 @@
+#logo {
+	width: 160px;
+}
+
+.nav a {
+	font-family: roboto-bold;
+	color: #60259c;
+	font-size: 12px;
+  	padding: 14px 16px;
+  	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav li {
+  	display: inline;
+}
+
+li.current {
+	content: ' ';
+	border: solid 10px transparent;
+	border-top: solid 0px transparent;
+	border-width: 10px;
+	left: 50%;
+	margin-left: -10px;
+	border-color: #843534 transparent transparent transparent;
+}
+
+.nav {
+	height: 120px;
+	background-color: #fcc326;
+}
+
+ul.pull-right {
+	padding: 36px 0px;
+}
+
+.nav a:hover {
+	color: #ffffff;
+}
+
+.arrow {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid black;
+}
