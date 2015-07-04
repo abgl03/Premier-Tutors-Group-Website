@@ -20,6 +20,7 @@
 .nav {
 	height: 120px;
 	background-color: #fcc326;
+	margin-bottom: 5%;
 }
 
 .nav a:hover {
@@ -147,7 +148,6 @@ p {
 .tutor {
 	width: 300px;
 	height: 300px;
-    float: right;
 }
 
 .row {
@@ -170,10 +170,36 @@ p {
 }
 
 .info {
-    padding: 5%;
-    font-size: 20px;
+    padding: 5% 0;
+	font-family: roboto-regular, Arial, sans-serif;
 }
 
 .info ul {
     list-style-type: none;
+}
+
+.book-now-button {
+	background-color: #60259c;
+	padding: 15px 30px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-top: 5%;
+	margin-left: 8%;
+}
+
+.book-now-button h3 {
+	color: #fcc326;
+	font-size: 30px;
+	margin: 0;
+}
+
+.prev-tutor p {
+}
+
+.next-tutor p {
+	text-align: right;
+}
+
+.back-to-list p {
+	text-align: center;
 }

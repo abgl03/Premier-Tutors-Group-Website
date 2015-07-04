@@ -37,11 +37,12 @@
 </div>
 
 <!-- Profile -->
+<div class="container">
 <div class="row row-center">
-    <div class="col-md-5 left">
+    <div class="col-xs-4 col-centered text-center">
         <img src='../../static/profiles/{{ tutor.id }}/{{ tutor.id }}.jpg' class="tutor" />
     </div>
-    <div class="col-md-4 right">
+    <div class="col-xs-8 col-centered right">
         <div class="title">
             <h3>{{ tutor.first_name }}</h3>
             <h6>{{ tutor.degree }}</h6>
@@ -70,12 +71,23 @@
                     {{ tutor.desc }}
                 </li>
             </ul>
-            <div class="book-now-button">
+            <a href="#"> <div class="book-now-button">
                 <h3>BOOK NOW</h3>
-            </div>
+            </div></a>
         </div>
     </div>
 </div>
+</div>
+
+
+<div class="container">
+    <div class="row row-centered">
+        <div class="col-xs-4 col-centered prev-tutor"><p><span class="glyphicon glyphicon-chevron-left"></span> Previous Tutor</p></div>
+        <div class="col-xs-4 col-centered back-to-list"><p>Back to List</p></div>
+        <div class="col-xs-4 col-centered next-tutor"><p>Next Tutor <span class="glyphicon glyphicon-chevron-right"></span></p></div>
+    </div>
+</div>
+
 
 <!-- Footer -->
 
