@@ -121,12 +121,19 @@ p {
 	font-size: 14px;
 }
 
+/* Home */
+
+.container .jumbotron {
+    border-radius: 0;
+}
+
 .jumbotron {
   background-image:url('../Image/FrontImage - Copy.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height:550px;
   z-index:-2;
+  border-radius: 0;
 }
 
 .jumbotron .slogan {
@@ -175,10 +182,34 @@ p {
 .purple {
 	background-color: #60259c;
 	margin-top: 25px;
+	height: 100%;
 }
 
 .purple h2 {
 	text-align: center;
 	color: #fcc326;
 	font-size: 30px;
+}
+
+.event_desc {
+	padding-left: 3%;
+	color:#ffffff;
+}
+
+.event_desc h2 {
+	text-align: left;
+	color:#ffffff;
+}
+
+.event_image {
+	background-image: url('../Image/ted_event.png');
+}
+
+.event_image img {
+	max-width:100%;
+	max-height:100%;
+}
+
+.footer {
+	margin-top: 0;
 }
