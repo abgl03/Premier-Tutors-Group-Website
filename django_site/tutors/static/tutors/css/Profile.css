@@ -51,6 +51,7 @@
 .footer {
 	height: 120px;
 	background-color: #333333;
+    margin-top: 4%;
 }
 
 .footer li {
@@ -118,7 +119,7 @@ h5 {
 }
 
 h6 {
-	font-family: roboto-regular;
+	font-family: roboto-regular, Arial, Helvetica, sans-serif;
 	font-size: 22px;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -126,7 +127,7 @@ h6 {
 }
 
 p {
-	font-family: roboto-regular;
+	font-family: roboto-regular, Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	text-align: left;
 }
@@ -155,12 +156,24 @@ p {
 
 .title {
     background-color: #fcc326;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-bottom: 20px;
-    padding-right: 30px;
+    padding: 20px 30px 20px 30px;
 }
 
 .title h3 {
-    : #60259c;
+    color: #60259c;
+}
+
+.title h6 {
+    color: #60259c;
+    text-align: left;
+    font-weight: bold;
+}
+
+.info {
+    padding: 5%;
+    font-size: 20px;
+}
+
+.info ul {
+    list-style-type: none;
 }

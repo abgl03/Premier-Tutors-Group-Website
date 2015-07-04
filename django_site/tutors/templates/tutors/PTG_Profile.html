@@ -44,7 +44,35 @@
     <div class="col-md-4 right">
         <div class="title">
             <h3>{{ tutor.first_name }}</h3>
-            <h6>asdfsadf</h6>
+            <h6>{{ tutor.degree }}</h6>
+        </div>
+        <div class="info">
+            <ul>
+                <li>
+                    Position: {{ tutor_subjects }}
+                </li>
+                <li>
+                    Age: {{ age }}
+                </li>
+                <li>
+                    University: {{ tutor.university }}
+                </li>
+                <li>
+                    Status of Study: {{ tutor.status_of_study }}
+                </li>
+                <li>
+                    Interests: {{ tutor.interests }}
+                </li><br/>
+                <li>
+                    Availability: {{ tutor.availability }}
+                </li><br/>
+                <li>
+                    {{ tutor.desc }}
+                </li>
+            </ul>
+            <div class="book-now-button">
+                <h3>BOOK NOW</h3>
+            </div>
         </div>
     </div>
 </div>

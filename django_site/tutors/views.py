@@ -1,5 +1,7 @@
 from django.http import Http404
 from django.shortcuts import render, get_object_or_404
+import datetime
+import math
 
 from .models import Tutor, Subject
 
@@ -12,4 +14,11 @@ def index(request):
 
 def profile(request, tutor_id):
     tutor = get_object_or_404(Tutor, pk=tutor_id)
-    return render(request, 'tutors/PTG_Profile.html', {'tutor': tutor})
+    tutor_subjects = []
+    for subject in tutor.tutorsubject_set.all():
+        tutor_subjects += [str(subject)]
+    tutor_subjects = ', '.join(tutor_subjects)
+    age = datetime.datetime.now().date() - tutor.dob
+    age = math.floor(age.days / 365)
+
+    return render(request, 'tutors/PTG_Profile.html', {'tutor': tutor, 'tutor_subjects': tutor_subjects, 'age': age})

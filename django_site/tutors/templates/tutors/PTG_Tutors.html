@@ -69,7 +69,7 @@
                 <div class="cover">
                     <a href="{{ tutor.id }}" class="tutor-link" style="text-decoration: none;"><h5>{{ tutor.first_name.upper }} {{ tutor.last_name.upper }}</h5></a>
                     <h6>Tutor <br />
-                        {% for subject in tutor.tutorsubject_set.all %}
+                        {%  for subject in tutor.tutorsubject_set.all %}
                         {{ subject }}
                         {% endfor %}
                     </h6>
