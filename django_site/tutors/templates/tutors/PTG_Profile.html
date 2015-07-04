@@ -11,6 +11,16 @@
 
     <title>Premier Tutors Group</title>
 
+    <style type="text/css">
+        {% block style %}
+            {% for peer in related %}
+                .peer{{ peer.id }} {
+                    background-image: url('../../static/profiles/{{ peer.id }}/{{ peer.id }}.jpg');
+                }
+            {% endfor %}
+        {% endblock %}
+    </style>
+
 </head>
 
 <body>
@@ -79,18 +89,38 @@
     </div>
 
     <div class="row row-centered">
-        <a href="{{ tutor.id|add:"-1" }}"><div class="col-xs-4 col-centered purple prev-tutor">
+        <a href="{{ tutor.id|add:"-1" }}"><div class="col-xs-4 col-centered purple">
             {% if tutor.id > 1 %}<p><span class="glyphicon glyphicon-chevron-left"></span> Previous Tutor</p>{% endif %}
         </div></a>
 
-        <a href="/tutors"><div class="col-xs-4 col-centered purple back-to-list"><p>Back to List</p></div></a>
-        <a href="{{ tutor.id|add:"1" }}"><div class="col-xs-4 col-centered purple next-tutor">
-            {% if number_of_tutors != tutor.id %}<p>Next Tutor <span class="glyphicon glyphicon-chevron-right"></span></p>{% endif %}
+        <a href="/tutors"><div class="col-xs-4 col-centered purple back-to-list"><p class="text-center">Back to List</p></div></a>
+        <a href="{{ tutor.id|add:"1" }}"><div class="col-xs-4 col-centered purple">
+            {% if number_of_tutors != tutor.id %}<p class="text-right">Next Tutor <span class="glyphicon glyphicon-chevron-right"></span></p>{% endif %}
         </div></a>
     </div>
 
     <div class="row row-centered">
-        <div class="col-xs-12 col-centered"><h6 class="text-left purple">RELATED TUTORS</h6></div>
+        <div class="col-xs-12 col-centered related-tutors-head yellow-background"><h6 class="text-left purple">RELATED TUTORS</h6></div>
+    </div>
+
+    <div class="row row-centered rel">
+    {% for peer in related %}
+        {% for peer in related %}{% for peer in related %}
+        <div class="col-xs-2 col-centered col-fixed profile">
+            <div class="peer peer{{ peer.id }}">
+                <div class="wrapper reveal-partial"></div>
+                <div class="reveal-full">
+                    <h6>{{ peer.first_name.upper }} {{ peer.last_name.upper }}</h6></br>
+                    <p class="text-center white">
+                    {% for subject in peer.tutorsubject_set.all %}
+                        {{ subject }}<br/>
+                    {% endfor %}
+        	        </p>
+                </div>
+            </div>
+        </div>
+            {% endfor %}{% endfor %}
+    {% endfor %}
     </div>
 
 </div>

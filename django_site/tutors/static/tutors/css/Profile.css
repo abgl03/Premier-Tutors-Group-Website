@@ -52,7 +52,7 @@
 .footer {
 	height: 120px;
 	background-color: #333333;
-    margin-top: 4%;
+	margin-top: 4%;
 }
 
 .footer li {
@@ -146,7 +146,11 @@ p {
 }
 
 .yellow {
-	color:#FCC326;
+	color: #FCC326;
+}
+
+.white {
+	color:#FFFFFF;
 }
 
 .purple-background {
@@ -163,26 +167,26 @@ p {
 }
 
 .row {
-    margin-top: 6%;
+	margin-top: 6%;
 }
 
 .title {
-    padding: 3% 5% 3% 5%;
+	padding: 3% 5% 3% 5%;
 }
 
 .title h6 {
-    text-align: left;
-    font-weight: bold;
+	text-align: left;
+	font-weight: bold;
 }
 
 .info {
-    padding: 5%;
+	padding: 5%;
 	font-family: roboto-regular, Arial, sans-serif;
 }
 
 .info ul {
-    padding: 0;
-    list-style-type: none;
+	padding: 0;
+	list-style-type: none;
 }
 
 .book-now-button {
@@ -197,13 +201,51 @@ p {
 	margin: 0;
 }
 
-.prev-tutor p {
+.related-tutors-head h6 {
+	font-weight: bold;
 }
 
-.next-tutor p {
-	text-align: right;
+.peer {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 30%;
+    text-transform: uppercase;
+    height: 250px;
+	position: relative;
 }
 
-.back-to-list p {
-	text-align: center;
+.peer:hover .reveal-partial {
+	background-color: #00bed4;
+	opacity: 0.5;
+}
+
+.peer:hover .reveal-full {
+	opacity: 1;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.reveal-partial{
+	position: absolute;
+	opacity: 0;
+	z-index: 1;
+}
+
+.reveal-full {
+	position: absolute;
+	opacity: 0;
+	z-index: 2;
+	left: 0;
+	right: 0;
+}
+
+.profile {
+	width: 20%;
+	margin-bottom: 2.5%;
 }
