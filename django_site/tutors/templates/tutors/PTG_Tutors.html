@@ -1,15 +1,26 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 {% load staticfiles %}
 <head>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-    <link rel="stylesheet" type="text/css" href="{% static "fonts/Font.css" %}" />
-    <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}" />
-    <link rel="stylesheet" type="text/css" href="{% static "tutors/css/Tutors.css" %}" />
+    <link rel="stylesheet" type="text/css" href="{% static "fonts/Font.css" %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static "tutors/css/Tutors.css" %}"/>
 
     <title>Our Tutors</title>
+
+    <style type="text/css">
+        {% block style %}
+            {% for tutor in tutors_list %}
+                .box{{ tutor.id }} {
+                    background-image: url('../../static/profiles/{{ tutor.id }}/{{ tutor.id }}.jpg');
+                }
+            {% endfor %}
+        {% endblock %}
+    </style>
 
 </head>
 
@@ -21,7 +32,7 @@
     <div class="container">
         <div class="pull-left">
             <a href="http://www.premiertutorsgroup.com/">
-                <img src="{% static "assets/Logo.png" %}" alt="Logo" id="logo" />
+                <img src="{% static "assets/Logo.png" %}" alt="Logo" id="logo"/>
             </a>
         </div>
         <ul class="pull-right">
@@ -52,34 +63,39 @@
 
         <div class="row head-desc">
             <div class="col-md-12">
-                <p class="purple">Aces que nobitet et porae ent vitatin nullore non culluptas dolores delentia derat vollibus alit laccab in provita
-                    spissitiorro et ad esti dolupta turepta sperum et lam, cusdaniet optam quo omnihici oditati sit audantium undia
-                    ex et quid expe dignim apidel is am, que eicab idi solupta consequibus ea ni del es sam ra sit explis acidel iminis
-                    nistiam rectet eos audigen temqui anis eiciis et a quametu sdantiusci optisqui berrovid molo blaborum.</p>
+                <p class="purple">Aces que nobitet et porae ent vitatin nullore non culluptas dolores delentia derat
+                    vollibus alit laccab in provita
+                    spissitiorro et ad esti dolupta turepta sperum et lam, cusdaniet optam quo omnihici oditati sit
+                    audantium undia
+                    ex et quid expe dignim apidel is am, que eicab idi solupta consequibus ea ni del es sam ra sit
+                    explis acidel iminis
+                    nistiam rectet eos audigen temqui anis eiciis et a quametu sdantiusci optisqui berrovid molo
+                    blaborum.</p>
             </div>
         </div>
 
         <!-- Tutors -->
 
-        <br />
+        <br/>
 
         <div class="row row-center">
             {% for tutor in tutors_list %}
-            <div class="col-md-4">
-                <div class="cover">
-                    <a href="{{ tutor.id }}" class="tutor-link" style="text-decoration: none;"><h5>{{ tutor.first_name.upper }} {{ tutor.last_name.upper }}</h5></a>
-                    <h6>Tutor <br />
-                        {%  for subject in tutor.tutorsubject_set.all %}
-                        {{ subject }}
-                        {% endfor %}
-                    </h6>
+                <div class="col-xs-4 col-centered col-fixed profile">
+                    <div class="box box{{ tutor.id }}">
+                        <div class="wrapper reveal-partial"></div>
+                        <div class="info reveal-full">
+                            <h2>{{ tutor.first_name.upper }} {{ tutor.last_name.upper }}</h2></br>
+                            <p class="text-center"> {% for subject in tutor.tutorsubject_set.all %}
+                                {{ subject }}<br/>
+                            {% endfor %}
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <img src='../../static/profiles/{{ tutor.id }}/{{ tutor.id }}.jpg' class="tutor" />
-            </div>
             {% endfor %}
         </div>
 
-        <br />
+        <br/>
 
     </div>
 
@@ -94,9 +110,12 @@
         </div>
         <ul class="pull-right">
             <li class="footer-text">Follow us</li>
-            <li><a href="https://www.facebook.com/premiertutorsgroup?fref=ts"><img src="{% static "assets/Facebook.png" %}" alt="Facebook" class="social-media" /></a></li>
-            <li><a href="http://www.twitter.com"><img src="{% static "assets/Twitter.png" %}" alt="Twitter" class="social-media" /></a></li>
-            <li><a href="http://www.instagram.com"><img src="{% static "assets/Instagram.png" %}" alt="Instagram" class="social-media" /></a></li>
+            <li><a href="https://www.facebook.com/premiertutorsgroup?fref=ts"><img
+                    src="{% static "assets/Facebook.png" %}" alt="Facebook" class="social-media"/></a></li>
+            <li><a href="http://www.twitter.com"><img src="{% static "assets/Twitter.png" %}" alt="Twitter"
+                                                      class="social-media"/></a></li>
+            <li><a href="http://www.instagram.com"><img src="{% static "assets/Instagram.png" %}" alt="Instagram"
+                                                        class="social-media"/></a></li>
         </ul>
     </div>
 </div>

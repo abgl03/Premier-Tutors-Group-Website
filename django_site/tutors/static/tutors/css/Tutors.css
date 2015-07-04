@@ -156,7 +156,7 @@ p {
 	width: 360px;
 	height: 360px;
 }
-
+/*
 .cover {
 	width: 360px;
 	height: 360px;
@@ -171,4 +171,61 @@ p {
 
 div.col-md-4:hover > div.cover {
 	display: block;
+}*/
+
+.box h2{
+    font-size: 30px;
+    font-family: roboto-bold, serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.box {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 30%;
+    text-transform: uppercase;
+    height: 400px;
+	position: relative;
+}
+
+.box .info {
+    background-color: transparent;
+    opacity: 0;
+    color:#ffffff;
+    transition: 0.2s;
+    position: absolute;
+    left:0;
+    right:0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.reveal-partial {
+	background-color: #00bed4;
+	opacity: 0;
+}
+
+.reveal-full {
+	position: absolute;
+	opacity: 0;
+	z-index: 2;
+	left: 0;
+	right: 0;
+}
+
+.box:hover .reveal-partial {
+	position: absolute;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.box:hover .reveal-full {
+	opacity: 1;
 }
