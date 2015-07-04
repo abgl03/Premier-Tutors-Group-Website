@@ -145,6 +145,18 @@ p {
 	color: #60259c;
 }
 
+.yellow {
+	color:#FCC326;
+}
+
+.purple-background {
+	background-color: #60259c;
+}
+
+.yellow-background {
+	background-color: #FCC326;
+}
+
 .tutor {
 	width: 300px;
 	height: 300px;
@@ -155,16 +167,10 @@ p {
 }
 
 .title {
-    background-color: #fcc326;
     padding: 3% 5% 3% 5%;
 }
 
-.title h3 {
-    color: #60259c;
-}
-
 .title h6 {
-    color: #60259c;
     text-align: left;
     font-weight: bold;
 }
@@ -180,7 +186,6 @@ p {
 }
 
 .book-now-button {
-	background-color: #60259c;
 	padding: 15px 30px;
 	display: inline-block;
 	border-radius: 10px;
@@ -188,7 +193,6 @@ p {
 }
 
 .book-now-button h3 {
-	color: #fcc326;
 	font-size: 20px;
 	margin: 0;
 }
@@ -202,8 +206,4 @@ p {
 
 .back-to-list p {
 	text-align: center;
-}
-
-.direct {
-	color: #60259c;
 }

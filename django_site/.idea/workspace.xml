@@ -4,7 +4,6 @@
     <list default="true" id="4f146806-030f-4b1b-8772-6ff37fd17bc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html" afterPath="$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutors/static/tutors/css/Profile.css" afterPath="$PROJECT_DIR$/tutors/static/tutors/css/Profile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutors/views.py" afterPath="$PROJECT_DIR$/tutors/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mysite.iws" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="PTG_Profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.64865">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.932432">
+              <caret line="73" column="81" selection-start-line="73" selection-start-column="81" selection-end-line="73" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -52,10 +51,17 @@
       <file leaf-file-name="Profile.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tutors/static/tutors/css/Profile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8848614">
-              <caret line="208" column="1" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.48187634">
+              <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Facebook.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/assets/Facebook.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -202,6 +208,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tutors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -509,7 +547,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435993548005</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Direction links are functional now">
+      <created>1435996230528</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1435996230528</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -551,7 +595,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Profile page - aligned properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Profile page - aligned properly" />
+    <MESSAGE value="Direction links are functional now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Direction links are functional now" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -761,18 +806,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/Facebook.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.64865">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.932432">
+          <caret line="73" column="81" selection-start-line="73" selection-start-column="81" selection-end-line="73" selection-end-column="81" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tutors/static/tutors/css/Profile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8848614">
-          <caret line="208" column="1" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.48187634">
+          <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
           <folding />
         </state>
       </provider>
