@@ -13,12 +13,15 @@ def index(request):
     return render(request, 'tutors/PTG_Tutors.html', context)
 
 def profile(request, tutor_id):
+    number_of_tutors = Tutor.objects.count()
     tutor = get_object_or_404(Tutor, pk=tutor_id)
-    tutor_subjects = []
-    for subject in tutor.tutorsubject_set.all():
-        tutor_subjects += [str(subject)]
-    tutor_subjects = ', '.join(tutor_subjects)
+    tutor_roles = []
+    for role in tutor.tutorrole_set.all():
+        tutor_roles += [str(role)]
+    tutor_roles = ', '.join(tutor_roles)
+    if tutor_roles:
+        tutor_roles = tutor_roles[0] + tutor_roles.lower()[1:]
     age = datetime.datetime.now().date() - tutor.dob
     age = math.floor(age.days / 365)
 
-    return render(request, 'tutors/PTG_Profile.html', {'tutor': tutor, 'tutor_subjects': tutor_subjects, 'age': age})
+    return render(request, 'tutors/PTG_Profile.html', {'tutor': tutor, 'tutor_roles': tutor_roles, 'age': age, 'number_of_tutors': number_of_tutors})
