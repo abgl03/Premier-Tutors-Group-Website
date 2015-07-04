@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f146806-030f-4b1b-8772-6ff37fd17bc3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html" afterPath="$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html" afterPath="$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutors/static/tutors/css/Profile.css" afterPath="$PROJECT_DIR$/tutors/static/tutors/css/Profile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutors/static/tutors/css/Tutors.css" afterPath="$PROJECT_DIR$/tutors/static/tutors/css/Tutors.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mysite.iws" />
@@ -42,18 +42,18 @@
       <file leaf-file-name="PTG_Profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.162162">
-              <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+            <state vertical-scroll-proportion="-5.8378377">
+              <caret line="130" column="61" selection-start-line="130" selection-start-column="61" selection-end-line="130" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Profile.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Profile.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tutors/static/tutors/css/Profile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="218" column="30" selection-start-line="218" selection-start-column="30" selection-end-line="218" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.46268657">
+              <caret line="223" column="15" selection-start-line="223" selection-start-column="15" selection-end-line="223" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PTG_Tutors.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PTG_Tutors.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3501094">
-              <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
+            <state vertical-scroll-proportion="-17.083334">
+              <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -137,10 +137,10 @@
         <option value="$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors_Replace.html" />
         <option value="$PROJECT_DIR$/tutors/urls.py" />
         <option value="$PROJECT_DIR$/tutors/views.py" />
-        <option value="$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html" />
-        <option value="$PROJECT_DIR$/tutors/static/tutors/css/Profile.css" />
         <option value="$PROJECT_DIR$/tutors/static/tutors/css/Tutors.css" />
         <option value="$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html" />
+        <option value="$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html" />
+        <option value="$PROJECT_DIR$/tutors/static/tutors/css/Profile.css" />
       </list>
     </option>
   </component>
@@ -566,7 +566,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436009366283</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changed &lt;img&gt; tags in tutor and profile pages to &lt;div&gt; tags to avoid image stretching">
+      <created>1436010275022</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1436010275022</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -611,7 +617,8 @@
     <MESSAGE value="Direction links are functional now" />
     <MESSAGE value="Refactored css" />
     <MESSAGE value="Designed related tutors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Designed related tutors" />
+    <MESSAGE value="Changed &lt;img&gt; tags in tutor and profile pages to &lt;div&gt; tags to avoid image stretching" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed &lt;img&gt; tags in tutor and profile pages to &lt;div&gt; tags to avoid image stretching" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -800,32 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutors/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutors/static/tutors/css/Profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="218" column="30" selection-start-line="218" selection-start-column="30" selection-end-line="218" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.162162">
-          <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutors/static/tutors/css/Tutors.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-32.083332">
@@ -836,8 +817,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3501094">
-          <caret line="87" column="51" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
+        <state vertical-scroll-proportion="-17.083334">
+          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutors/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8378377">
+          <caret line="130" column="61" selection-start-line="130" selection-start-column="61" selection-end-line="130" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutors/static/tutors/css/Profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46268657">
+          <caret line="223" column="15" selection-start-line="223" selection-start-column="15" selection-end-line="223" selection-end-column="15" />
           <folding />
         </state>
       </provider>

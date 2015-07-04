@@ -80,7 +80,7 @@
 
         <div class="row row-center">
             {% for tutor in tutors_list %}
-                <div class="col-xs-4 col-centered col-fixed profile">
+                <a href="{{ tutor.id }}"><div class="col-xs-4 col-centered col-fixed profile">
                     <div class="box box{{ tutor.id }}">
                         <div class="wrapper reveal-partial"></div>
                         <div class="info reveal-full">
@@ -91,7 +91,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div></a>
             {% endfor %}
         </div>
 
