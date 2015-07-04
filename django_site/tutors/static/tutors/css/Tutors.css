@@ -156,22 +156,6 @@ p {
 	width: 360px;
 	height: 360px;
 }
-/*
-.cover {
-	width: 360px;
-	height: 360px;
-	background-color: #00bed4;
-	position: absolute;
-	z-index: 1;
-	padding: 10px;
-	margin-left: 5px;
-	background: rgba(0, 190, 212, .3);
-	display: none;
-}
-
-div.col-md-4:hover > div.cover {
-	display: block;
-}*/
 
 .box h2{
     font-size: 30px;
@@ -228,4 +212,8 @@ div.col-md-4:hover > div.cover {
 
 .box:hover .reveal-full {
 	opacity: 1;
+}
+
+.profile {
+	margin-bottom: 2.5%;
 }

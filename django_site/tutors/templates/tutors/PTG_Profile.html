@@ -128,7 +128,7 @@
 
     <div class="row row-centered rel">
         {% for peer in related %}
-            <div class="col-xs-2 col-centered col-fixed peer-profile">
+            <a href="{{ peer.id }}"><div class="col-xs-2 col-centered col-fixed peer-profile">
                 <div class="peer peer{{ peer.id }}">
                     <div class="wrapper reveal-partial"></div>
                     <div class="reveal-full">
@@ -140,7 +140,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div></a>
         {% endfor %}
     </div>
 
