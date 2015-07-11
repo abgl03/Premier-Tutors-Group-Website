@@ -7,7 +7,7 @@
 .nav a {
 	font-family: roboto-bold;
 	color: #60259c;
-	font-size: 12px;
+	font-size: 13px;
   	padding: 14px 16px;
   	text-transform: uppercase;
 	text-decoration: none;
@@ -18,7 +18,7 @@
 }
 
 .nav {
-	height: 120px;
+	height: 100px;
 	background-color: #fcc326;
 }
 
@@ -33,13 +33,22 @@
 	border-right: 20px solid transparent;
 	border-top: 20px solid #fcc326;
 	margin: auto;
-	margin-right: 520px;
-	margin-top: 18px;
+	margin-right: 238px;
+	margin-top: -2px;
 }
 
 .page-image {
-	background-image: url('HeadImage/AboutImage.jpg');
+	background-image: url('HeadImage/ServiceImage.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
 	height: 360px;
+}
+
+.page-overlay {
+	background: rgba(0, 0, 0, 0.3);
+	height: 360px;
+	width: 950px;
+	margin: auto 0;
 }
 
 .page-head {
@@ -77,8 +86,10 @@ li.footer-text {
 }
 
 .social-media {
+	display: inline;
 	width: 30px;
 }
+
 
 ul.pull-right {
 	padding: 36px 0px;
@@ -124,6 +135,10 @@ p {
 
 /* Content */
 
+.container {
+	width: 950px;
+}
+
 .head-desc {
 	background-color: #e8dff0;
 	height: 150px;
@@ -149,6 +164,8 @@ p {
 
 .icon {
 	float: left;
+	width: 35px;
+	vertical-align: middle;
 }
 
 .button {
@@ -156,7 +173,7 @@ p {
 	height: 40px;
 	background-color: #fcc326;
 	border-radius: 10px;
-	padding: 8px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
 }
 
 .button:hover {
@@ -174,6 +191,13 @@ a.book-now {
 }
 
 .text {
-	height: 220px;
+	height: 280px;
 }
 
+.bottom-space {
+	height: 10px;
+}
+
+.top-space {
+	height: 10px;
+}
