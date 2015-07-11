@@ -76,7 +76,7 @@ ul.pull-right {
 }
 
 .page-image {
-	background-image: url('../../../static/about/assets/AboutImage.jpg');
+	background-image: url('AboutImage.jpg');
 	height: 360px;
 }
 
@@ -121,51 +121,95 @@ p {
 	font-size: 14px;
 }
 
-/* Content */
+/* Home */
+
+.container .jumbotron {
+    border-radius: 0;
+}
+
+.jumbotron {
+  background-image:url('../../../static/home/assets/FrontImage - Copy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:550px;
+  z-index:-2;
+  border-radius: 0;
+}
+
+.jumbotron .slogan {
+  position: relative;
+  top:170px;
+  z-index:1;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: 'ttrounds-black', sans-serif;
+  src: url(TTRounds-Black.otf);
+}
+
+.item {
+	padding:40px;
+	height: 400px;
+}
+
+.item h2{
+  	font-size: 20px;
+	font-family: 'ttrounds-black', sans-serif;
+  	src: url(TTRounds-Black.otf);
+}
+
+.yellow {
+	background-color: #fcc326;
+}
+
+.yellow h2 {
+  	color: #60259c;
+}
+
+.blue {
+	background-color: #00BED4;
+
+	color: #ffffff;
+}
+
+.blue h2 {
+	color: #ffffff;
+}
 
 .purple {
-	color: #60259c;
+	background-color: #60259c;
+	margin-top: 25px;
+	height: 100%;
 }
 
-.yellow-line {
-	border-top: 1px solid #fcc326;
-	height: 20px;
-}
-
-.col-md-3 {
-	background-color: #fcc326;
-}
-
-.col-md-9 {
-	background-color: #fcc326;
-	padding: 30px;
-}
-
-.premier-story {
-	height: 240px;
-}
-
-.vision {
-	height: 320px;
-}
-
-.values {
-	height: 110px;
-}
-
-.row-center {
+.purple h2 {
 	text-align: center;
+	color: #fcc326;
+	font-size: 30px;
 }
 
-.director-text {
+.event_desc {
+	padding-left: 3%;
+	color:#ffffff;
+}
+
+.event_desc h2 {
 	text-align: left;
-	margin-left: 30px;
+	color:#ffffff;
 }
 
-.taller {
-	height: 520px;
+.event_image {
+	background-image: url('../Image/ted_event.png');
 }
 
-.space {
-	height: 140px;
+.event_image img {
+	max-width:100%;
+	max-height:100%;
+}
+
+.footer {
+	margin-top: 0;
 }
