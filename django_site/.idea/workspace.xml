@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f146806-030f-4b1b-8772-6ff37fd17bc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prices/static/prices/assets/AboutImage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/static/services/assets/AboutImage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/static/home/assets/FrontImage - Copy.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/static/home/assets/ted_event.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/static/home/css/Home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/templates/home/PTG_Home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prices/templates/prices/PTG_Prices.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/templates/services/PTG_Services.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prices/static/prices/css/Prices.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/static/services/css/Services.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prices/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prices/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prices/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prices/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prices/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prices/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/views.py" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\home\static\about\assets\AboutImage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\home\static\about\css\About.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\polls\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\polls\admin.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\polls\migrations\0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\polls\migrations\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\polls\models.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\polls\templates\polls\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\polls\tests.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\polls\urls.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\polls\views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ptg.db" afterPath="$PROJECT_DIR$/ptg.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/static/about/css/About.css" afterPath="$PROJECT_DIR$/about/static/about/css/About.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/templates/about/PTG_About.html" afterPath="$PROJECT_DIR$/about/templates/about/PTG_About.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/urls.py" afterPath="$PROJECT_DIR$/mysite/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/templates/services/PTG_Services.html" afterPath="$PROJECT_DIR$/services/templates/services/PTG_Services.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mysite.iws" />
@@ -67,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PTG_About.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PTG_About.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about/templates/about/PTG_About.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.571116">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state vertical-scroll-proportion="-22.5">
+              <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -80,18 +38,18 @@
       <file leaf-file-name="PTG_Profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="52.5">
+            <state vertical-scroll-proportion="27.75">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PTG_Services.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PTG_Services.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/templates/services/PTG_Services.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
-              <caret line="27" column="65" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.3938731">
+              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -194,9 +152,9 @@
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/services/views.py" />
         <option value="$PROJECT_DIR$/services/static/services/css/Services.css" />
-        <option value="$PROJECT_DIR$/services/templates/services/PTG_Services.html" />
         <option value="$PROJECT_DIR$/services/urls.py" />
         <option value="$PROJECT_DIR$/about/templates/about/PTG_About.html" />
+        <option value="$PROJECT_DIR$/services/templates/services/PTG_Services.html" />
       </list>
     </option>
   </component>
@@ -727,7 +685,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436619707670</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finished all pages">
+      <created>1436622219110</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1436622219110</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -742,7 +706,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -778,7 +742,8 @@
     <MESSAGE value="Started about app" />
     <MESSAGE value="Have the about page working" />
     <MESSAGE value="Started home app&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started home app&#10;" />
+    <MESSAGE value="Finished all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished all pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1163,14 +1128,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/templates/services/PTG_Services.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="27" column="65" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-28.5">
@@ -1179,18 +1136,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/about/templates/about/PTG_About.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.5">
+          <caret line="30" column="60" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="52.5">
+        <state vertical-scroll-proportion="27.75">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/templates/about/PTG_About.html">
+    <entry file="file://$PROJECT_DIR$/services/templates/services/PTG_Services.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.571116">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.3938731">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
           <folding />
         </state>
       </provider>
