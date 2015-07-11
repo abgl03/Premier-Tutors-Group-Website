@@ -1,0 +1,171 @@
+/* Navbar */
+
+#logo {
+	width: 160px;
+}
+
+.nav a {
+	font-family: roboto-bold;
+	color: #60259c;
+	font-size: 12px;
+  	padding: 14px 16px;
+  	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav li {
+  	display: inline;
+}
+
+.nav {
+	height: 120px;
+	background-color: #fcc326;
+}
+
+.nav a:hover {
+	color: #ffffff;
+}
+
+.arrow {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fcc326;
+	margin: auto;
+	margin-right: 520px;
+	margin-top: 18px;
+}
+
+/* Footer */
+
+.footer {
+	height: 120px;
+	background-color: #333333;
+}
+
+.footer li {
+  	display: inline;
+}
+
+.footer a {
+	margin-left: 20px;
+}
+
+p.footer-text {
+	font-family: roboto-bold;
+	color: #ffffff;
+	font-size: 12px;
+  	padding: 14px 16px;
+  	margin-top: 30px;
+}
+
+li.footer-text {
+	font-family: roboto-bold;
+	color: #ffffff;
+	font-size: 12px;
+  	padding: 14px 16px;
+}
+
+.social-media {
+	width: 30px;
+}
+
+ul.pull-right {
+	padding: 36px 0px;
+}
+
+.page-image {
+	background-image: url('../../../static/about/assets/AboutImage.jpg');
+	height: 360px;
+}
+
+.page-head {
+	height: 300px;
+}
+
+/* Fonts */
+
+h1 {
+	font-family: ttrounds-black;
+	font-size: 72px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: ttrounds-black;
+	font-size: 56px;
+	color: #60259c;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: ttrounds-black;
+	font-size: 38px;
+	color: #60259c;
+	text-transform: uppercase;
+}
+
+h6 {
+	font-family: ttrounds-black;
+	font-size: 30px;
+	color: #60259c;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: 30px;
+}
+
+p {
+	font-family: roboto-regular;
+	font-size: 14px;
+}
+
+/* Content */
+
+.purple {
+	color: #60259c;
+}
+
+.yellow-line {
+	border-top: 1px solid #fcc326;
+	height: 20px;
+}
+
+.col-md-3 {
+	background-color: #fcc326;
+}
+
+.col-md-9 {
+	background-color: #fcc326;
+	padding: 30px;
+}
+
+.premier-story {
+	height: 240px;
+}
+
+.vision {
+	height: 320px;
+}
+
+.values {
+	height: 110px;
+}
+
+.row-center {
+	text-align: center;
+}
+
+.director-text {
+	text-align: left;
+	margin-left: 30px;
+}
+
+.taller {
+	height: 520px;
+}
+
+.space {
+	height: 140px;
+}
