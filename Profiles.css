@@ -33,8 +33,26 @@
 	border-right: 20px solid transparent;
 	border-top: 20px solid #fcc326;
 	margin: auto;
-	margin-right: 465px;
+	margin-right: 360px;
 	margin-top: -2px;
+}
+
+.page-image {
+	background-image: url('HeadImage/TutorImage.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 360px;
+}
+
+.page-overlay {
+	background: rgba(0, 0, 0, 0.3);
+	height: 360px;
+	width: 950px;
+	margin: auto 0;
+}
+
+.page-head {
+	height: 300px;
 }
 
 /* Footer */
@@ -77,132 +95,102 @@ ul.pull-right {
 	padding: 36px 0px;
 }
 
-.page-image {
-	background-image: url('../../../static/about/assets/AboutImage.jpg');
-	background-repeat: no-repeat;
-    background-size: cover;
-	height: 360px;
-}
-
-.page-overlay {
-	background: rgba(0, 0, 0, 0.3);
-	height: 360px;
-	width: 950px;
-	margin: auto 0;
-}
-
-.page-head {
-	height: 300px;
-}
-
 /* Fonts */
 
 h1 {
 	font-family: ttrounds-black;
-	font-size: 66px;
+	font-size: 72px;
 	color: #ffffff;
 	text-transform: uppercase;
 }
 
 h2 {
 	font-family: ttrounds-black;
-	font-size: 48px;
+	font-size: 56px;
 	color: #60259c;
 	text-transform: uppercase;
 }
 
 h3 {
 	font-family: ttrounds-black;
-	font-size: 36px;
+	font-size: 38px;
 	color: #60259c;
 	text-transform: uppercase;
 }
 
-h6 {
-	font-family: ttrounds-black;
-	font-size: 30px;
-	color: #60259c;
+h5 {
+	font-family: roboto-bold;
+	font-size: 24px;
+	color: #ffffff;
 	text-transform: uppercase;
-	text-align: left;
-	margin-left: 30px;
+	text-align: center;
+	margin-top: 90px;
+	text-decoration: none;
+}
+
+h6 {
+	font-family: roboto-regular;
+	font-size: 22px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 p {
 	font-family: roboto-regular;
 	font-size: 14px;
+	text-align: left;
 }
 
 /* Content */
 
-.head-title {
-	text-align: center;
-}
-
 .container {
 	width: 950px;
+}
+
+.head-desc {
+	background-color: #e8dff0;
+	height: 150px;
+	padding: 40px 60px;
 }
 
 .purple {
 	color: #60259c;
 }
 
-.yellow-line {
-	border-top: 1px solid #fcc326;
-	height: 40px;
-}
-
-.col-md-8 {
-	background-color: #fcc326;
-	padding: 30px;
-}
-
-.premier-story {
-	height: 220px;
-	background-color: #fcc326;
-}
-
-.vision {
-	height: 205px;
-	background-color: #fcc326;
-}
-
-.values {
-	height: 175px;
-	background-color: #fcc326;
-}
-
 .row-center {
 	text-align: center;
 }
 
-.director-text {
-	text-align: left;
-	margin-left: 30px;
+.col-md-4 {
+	padding: 10px;
+	position: relative;
 }
 
-.taller {
-	height: 580px;
+.tutor {
+	width: 290px;
 }
 
-.space {
-	height: 140px;
+.cover {
+	width: 290px;
+	height: 290px;
+	background-color: #00bed4;
+	position: absolute;
+	z-index: 1;
+	padding: 10px;
+	margin-left: 4px;
+	background: rgba(0, 190, 212, .3);
+	display: none;
+}
+
+div.col-md-4:hover > div.cover {
+	display: block;
 }
 
 .bottom-space {
-	height: 25px;
+	height: 30px;
 }
 
-.box {
-    text-align: center;
-    text-transform: uppercase;
-    height: 600px;
-	position: relative;
-	margin-right: 2.5%;
-	margin-bottom: 4%;
-}
-
-.photo {
-	height: 350px;
-	background-repeat: no-repeat;
-    background-size: cover;
+.top-space {
+	height: 30px;
 }
