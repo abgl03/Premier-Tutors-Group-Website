@@ -7,7 +7,7 @@
 .nav a {
 	font-family: roboto-bold;
 	color: #60259c;
-	font-size: 13px;
+	font-size: 12px;
   	padding: 14px 16px;
   	text-transform: uppercase;
 	text-decoration: none;
@@ -18,7 +18,7 @@
 }
 
 .nav {
-	height: 100px;
+	height: 120px;
 	background-color: #fcc326;
 }
 
@@ -33,22 +33,13 @@
 	border-right: 20px solid transparent;
 	border-top: 20px solid #fcc326;
 	margin: auto;
-	margin-right: 238px;
-	margin-top: -2px;
+	margin-right: 520px;
+	margin-top: 18px;
 }
 
 .page-image {
-	background-image: url('../../../static/services/assets/ServiceImage.jpg');
-	background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url('../../../static/prices/assets/AboutImage.jpg');
 	height: 360px;
-}
-
-.page-overlay {
-	background: rgba(0, 0, 0, 0.3);
-	height: 360px;
-	width: 950px;
-	margin: auto 0;
 }
 
 .page-head {
@@ -86,10 +77,8 @@ li.footer-text {
 }
 
 .social-media {
-	display: inline;
 	width: 30px;
 }
-
 
 ul.pull-right {
 	padding: 36px 0px;
@@ -99,7 +88,7 @@ ul.pull-right {
 
 h1 {
 	font-family: ttrounds-black;
-	font-size: 66px;
+	font-size: 72px;
 	color: #ffffff;
 	text-transform: uppercase;
 }
@@ -118,6 +107,15 @@ h3 {
 	text-transform: uppercase;
 }
 
+h5 {
+	font-family: ttrounds-black;
+	font-size: 26px;
+	color: #60259c;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: 30px;
+}
+
 h6 {
 	font-family: ttrounds-black;
 	font-size: 22px;
@@ -130,14 +128,9 @@ h6 {
 p {
 	font-family: roboto-regular;
 	font-size: 14px;
-	text-align: left;
 }
 
 /* Content */
-
-.container {
-	width: 950px;
-}
 
 .head-desc {
 	background-color: #e8dff0;
@@ -149,23 +142,9 @@ p {
 	color: #60259c;
 }
 
-.yellow-line {
-	border-top: 1px solid #fcc326;
-	height: 20px;
-}
-
-.row-center {
-	text-align: center;
-}
-
-.col-md-4 {
-	padding: 30px 20px;
-}
-
-.icon {
-	float: left;
-	width: 35px;
-	vertical-align: middle;
+.service {
+	background-color: #fcc326;
+	height: 40px;
 }
 
 .button {
@@ -173,7 +152,7 @@ p {
 	height: 40px;
 	background-color: #fcc326;
 	border-radius: 10px;
-	padding: 10px 0px 0px 0px;
+	padding: 8px 0px 0px 0px;
 }
 
 .button:hover {
@@ -190,14 +169,20 @@ a.book-now {
 	text-decoration: none;
 }
 
-.text {
-	height: 280px;
+.inside {
+	padding-left: 44px;
 }
 
-.bottom-space {
-	height: 10px;
+.row-center {
+	text-align: center;
 }
 
-.top-space {
-	height: 10px;
+.yellow-line {
+	border-top: 1px solid #fcc326;
+	height: 20px;
+	margin-top: 20px;
+}
+
+.package {
+	color: #a17ec4;
 }
