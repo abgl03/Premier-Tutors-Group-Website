@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f146806-030f-4b1b-8772-6ff37fd17bc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about/static/about/assets/Margaret.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about/static/about/assets/Marsha.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about/static/about/assets/Varun.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about/static/about/assets/mittal.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/migrations/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/static/about/css/About.css" afterPath="$PROJECT_DIR$/about/static/about/css/About.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about/templates/about/PTG_About.html" afterPath="$PROJECT_DIR$/about/templates/about/PTG_About.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/templates/home/PTG_Home.html" afterPath="$PROJECT_DIR$/home/templates/home/PTG_Home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prices/templates/prices/PTG_Prices.html" afterPath="$PROJECT_DIR$/prices/templates/prices/PTG_Prices.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html" afterPath="$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html" afterPath="$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mysite.iws" />
@@ -743,7 +732,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436622338381</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished all pages">
+      <created>1436674871941</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1436674871941</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
