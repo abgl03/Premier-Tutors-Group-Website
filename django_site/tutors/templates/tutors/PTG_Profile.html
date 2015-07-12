@@ -40,12 +40,12 @@
             </a>
         </div>
         <ul class="pull-right">
-            <li><a href="http://www.premiertutorsgroup.com/about-us">About Us</a></li>
-            <li><a href="http://www.premiertutorsgroup.com/our-tutors">Our Tutors</a></li>
-            <li><a href="http://www.premiertutorsgroup.com/our-services">Our Services</a></li>
-            <li><a href="http://www.premiertutorsgroup.com/prices">Prices</a></li>
-            <li><a href="http://www.premiertutorsgroup.com/events">Events</a></li>
-            <li><a href="http://www.premiertutorsgroup.com/contact-us">Contact Us</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/tutors">Our Tutors</a></li>
+            <li><a href="/services">Our Services</a></li>
+            <li><a href="/prices">Prices</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
         </ul>
         <div class="pull-right">
             <div class="arrow"></div>
@@ -128,19 +128,21 @@
 
     <div class="row row-centered rel">
         {% for peer in related %}
-            <a href="{{ peer.id }}"><div class="col-xs-2 col-centered col-fixed peer-profile">
-                <div class="peer peer{{ peer.id }}">
-                    <div class="wrapper reveal-partial"></div>
-                    <div class="reveal-full">
-                        <h6>{{ peer.first_name.upper }} {{ peer.last_name.upper }}</h6></br>
-                        <p class="text-center white">
-                            {% for subject in peer.tutorsubject_set.all %}
-                                {{ subject }}<br/>
-                            {% endfor %}
-                        </p>
+            <a href="{{ peer.id }}">
+                <div class="col-xs-2 col-centered col-fixed peer-profile">
+                    <div class="peer peer{{ peer.id }}">
+                        <div class="wrapper reveal-partial"></div>
+                        <div class="reveal-full">
+                            <h6>{{ peer.first_name.upper }} {{ peer.last_name.upper }}</h6></br>
+                            <p class="text-center white">
+                                {% for subject in peer.tutorsubject_set.all %}
+                                    {{ subject }}<br/>
+                                {% endfor %}
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div></a>
+            </a>
         {% endfor %}
     </div>
 

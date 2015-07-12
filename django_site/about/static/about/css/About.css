@@ -113,7 +113,6 @@ h6 {
 	color: #60259c;
 	text-transform: uppercase;
 	text-align: left;
-	margin-left: 30px;
 }
 
 p {
@@ -159,7 +158,6 @@ p {
 
 .director-text {
 	text-align: left;
-	margin-left: 30px;
 }
 
 .taller {
@@ -168,4 +166,18 @@ p {
 
 .space {
 	height: 140px;
+}
+
+.box {
+    text-align: center;
+    text-transform: uppercase;
+    height: 600px;
+	position: relative;
+	margin-right: 2.5%;
+}
+
+.photo {
+	height: 350px;
+	background-repeat: no-repeat;
+    background-size: cover;
 }
