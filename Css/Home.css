@@ -1,0 +1,215 @@
+/* Navbar */
+
+#logo {
+	width: 160px;
+}
+
+.nav a {
+	font-family: roboto-bold;
+	color: #60259c;
+	font-size: 12px;
+  	padding: 14px 16px;
+  	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav li {
+  	display: inline;
+}
+
+.nav {
+	height: 120px;
+	background-color: #fcc326;
+}
+
+.nav a:hover {
+	color: #ffffff;
+}
+
+.arrow {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fcc326;
+	margin: auto;
+	margin-right: 520px;
+	margin-top: 18px;
+}
+
+/* Footer */
+
+.footer {
+	height: 120px;
+	background-color: #333333;
+}
+
+.footer li {
+  	display: inline;
+}
+
+.footer a {
+	margin-left: 20px;
+}
+
+p.footer-text {
+	font-family: roboto-bold;
+	color: #ffffff;
+	font-size: 12px;
+  	padding: 14px 16px;
+  	margin-top: 30px;
+}
+
+li.footer-text {
+	font-family: roboto-bold;
+	color: #ffffff;
+	font-size: 12px;
+  	padding: 14px 16px;
+}
+
+.social-media {
+	width: 30px;
+}
+
+ul.pull-right {
+	padding: 36px 0px;
+}
+
+.page-image {
+	background-image: url('AboutImage.jpg');
+	height: 360px;
+}
+
+.page-head {
+	height: 300px;
+}
+
+/* Fonts */
+
+h1 {
+	font-family: ttrounds-black;
+	font-size: 72px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: ttrounds-black;
+	font-size: 56px;
+	color: #60259c;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: ttrounds-black;
+	font-size: 38px;
+	color: #60259c;
+	text-transform: uppercase;
+}
+
+h6 {
+	font-family: ttrounds-black;
+	font-size: 30px;
+	color: #60259c;
+	text-transform: uppercase;
+	text-align: left;
+	margin-left: 30px;
+}
+
+p {
+	font-family: roboto-regular;
+	font-size: 14px;
+}
+
+/* Home */
+
+.container .jumbotron {
+    border-radius: 0;
+}
+
+.jumbotron {
+  background-image:url('../Image/FrontImage - Copy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:550px;
+  z-index:-2;
+  border-radius: 0;
+}
+
+.jumbotron .slogan {
+  position: relative;
+  top:170px;
+  z-index:1;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: 'ttrounds-black', sans-serif;
+  src: url(TTRounds-Black.otf);
+}
+
+.item {
+	padding:40px;
+	height: 400px;
+}
+
+.item h2{
+  	font-size: 20px;
+	font-family: 'ttrounds-black', sans-serif;
+  	src: url(TTRounds-Black.otf);
+}
+
+.yellow {
+	background-color: #fcc326;
+}
+
+.yellow h2 {
+  	color: #60259c;
+}
+
+.blue {
+	background-color: #00BED4;
+
+	color: #ffffff;
+}
+
+.blue h2 {
+	color: #ffffff;
+}
+
+.purple {
+	background-color: #60259c;
+	margin-top: 25px;
+	height: 100%;
+}
+
+.purple h2 {
+	text-align: center;
+	color: #fcc326;
+	font-size: 30px;
+}
+
+.event_desc {
+	padding-left: 3%;
+	color:#ffffff;
+}
+
+.event_desc h2 {
+	text-align: left;
+	color:#ffffff;
+}
+
+.event_image {
+	background-image: url('../Image/ted_event.png');
+}
+
+.event_image img {
+	max-width:100%;
+	max-height:100%;
+}
+
+.footer {
+	margin-top: 0;
+}
