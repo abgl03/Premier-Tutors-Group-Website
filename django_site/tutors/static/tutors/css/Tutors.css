@@ -1,0 +1,256 @@
+/* Navbar */
+
+#logo {
+	width: 160px;
+}
+
+.nav a {
+	font-family: roboto-bold;
+	color: #60259c;
+	font-size: 13px;
+  	padding: 14px 16px;
+  	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav li {
+  	display: inline;
+}
+
+.nav {
+	height: 100px;
+	background-color: #fcc326;
+}
+
+.nav a:hover {
+	color: #ffffff;
+}
+
+.arrow {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fcc326;
+	margin: auto;
+	margin-right: 360px;
+	margin-top: -2px;
+}
+
+.page-image {
+	background-image: url('../../../static/tutors/assets/TutorImage.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 360px;
+}
+
+.page-overlay {
+	background: rgba(0, 0, 0, 0.3);
+	height: 360px;
+	width: 950px;
+	margin: auto 0;
+}
+
+.page-head {
+	height: 300px;
+}
+
+/* Footer */
+
+.footer {
+	height: 120px;
+	background-color: #333333;
+}
+
+.footer li {
+  	display: inline;
+}
+
+.footer a {
+	margin-left: 20px;
+}
+
+p.footer-text {
+	font-family: roboto-bold;
+	color: #ffffff;
+	font-size: 12px;
+  	padding: 14px 16px;
+  	margin-top: 30px;
+}
+
+li.footer-text {
+	font-family: roboto-bold;
+	color: #ffffff;
+	font-size: 12px;
+  	padding: 14px 16px;
+}
+
+.social-media {
+	display: inline;
+	width: 30px;
+}
+
+
+ul.pull-right {
+	padding: 36px 0px;
+}
+
+/* Fonts */
+
+h1 {
+	font-family: ttrounds-black;
+	font-size: 66px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: ttrounds-black;
+	font-size: 56px;
+	color: #60259c;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: ttrounds-black;
+	font-size: 38px;
+	color: #60259c;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-family: roboto-bold;
+	font-size: 24px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 90px;
+	text-decoration: none;
+}
+
+h6 {
+	font-family: roboto-regular;
+	font-size: 22px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p {
+	font-family: roboto-regular;
+	font-size: 14px;
+	text-align: left;
+}
+
+/* Content */
+
+.container {
+	width: 950px;
+}
+
+.head-desc {
+	background-color: #e8dff0;
+	height: 150px;
+	padding: 40px 60px;
+}
+
+.purple {
+	color: #60259c;
+}
+
+.row-center {
+	text-align: center;
+}
+
+.col-md-4 {
+	padding: 10px;
+	position: relative;
+}
+
+.tutor {
+	width: 290px;
+}
+
+.cover {
+	width: 290px;
+	height: 290px;
+	background-color: #00bed4;
+	position: absolute;
+	z-index: 1;
+	padding: 10px;
+	margin-left: 4px;
+	background: rgba(0, 190, 212, .3);
+	display: none;
+}
+
+div.col-md-4:hover > div.cover {
+	display: block;
+}
+
+.bottom-space {
+	height: 30px;
+}
+
+.top-space {
+	height: 30px;
+}
+
+.box {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-transform: uppercase;
+    height: 300px;
+	position: relative;
+}
+
+.box h6 {
+	margin: 0;
+}
+
+.box h5 {
+	margin-bottom: 0;
+}
+
+.box .info {
+    background-color: transparent;
+    opacity: 0;
+    color:#ffffff;
+    position: absolute;
+    left:0;
+    right:0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.reveal-partial {
+	background-color: #00bed4;
+	opacity: 0;
+}
+
+.reveal-full {
+	position: absolute;
+	opacity: 0;
+	z-index: 2;
+	left: 0;
+	right: 0;
+}
+
+.box:hover .reveal-partial {
+	position: absolute;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.box:hover .reveal-full {
+	opacity: 1;
+}
+
+.profile {
+	margin-bottom: 2.5%;
+}

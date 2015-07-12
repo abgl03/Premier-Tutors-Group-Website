@@ -135,14 +135,19 @@ p {
 
 /* Content */
 
+<<<<<<< HEAD
+=======
 body {
 	background-color: #f7f7f7;
 }
 
+>>>>>>> master
 .container {
 	width: 950px;
 }
 
+<<<<<<< HEAD
+=======
 .container.in-body {
 	width: 950px;
 	background-color: white;
@@ -154,6 +159,7 @@ body {
 	padding-right: 50px;
 }
 
+>>>>>>> master
 .head-desc {
 	background-color: #e8dff0;
 	height: 150px;
@@ -206,7 +212,11 @@ a.book-now {
 }
 
 .text {
+<<<<<<< HEAD
+	height: 280px;
+=======
 	height: 300px;
+>>>>>>> master
 }
 
 .bottom-space {

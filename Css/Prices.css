@@ -143,14 +143,19 @@ p {
 
 /* Content */
 
+<<<<<<< HEAD
+=======
 body {
 	background-color: #f7f7f7;
 }
 
+>>>>>>> master
 .container {
 	width: 950px;
 }
 
+<<<<<<< HEAD
+=======
 .container.in-body {
 	width: 950px;
 	background-color: white;
@@ -161,6 +166,7 @@ body {
 	background-color: #fcc326;
 }
 
+>>>>>>> master
 .head-desc {
 	background-color: #e8dff0;
 	height: 150px;

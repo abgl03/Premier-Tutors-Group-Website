@@ -41,7 +41,17 @@
 	background-image: url('HeadImage/TutorImage.jpg');
 	background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
+=======
 	height: 360px;
+}
+
+.page-overlay {
+	background: rgba(0, 0, 0, 0.3);
+>>>>>>> master
+	height: 360px;
+	width: 950px;
+	margin: auto 0;
 }
 
 .page-overlay {
@@ -144,20 +154,26 @@ p {
 
 /* Content */
 
+<<<<<<< HEAD
+=======
 body {
 	background-color: #f7f7f7;
 }
 
+>>>>>>> master
 .container {
 	width: 950px;
 }
 
+<<<<<<< HEAD
+=======
 .container.in-body {
 	width: 950px;
 	background-color: white;
 	box-shadow: 0 -6px #fcc326, 0 6px white, -10px 0 6px -4px #e0e0e0, 10px 0 6px -4px #e0e0e0;
 }
 
+>>>>>>> master
 .head-desc {
 	background-color: #e8dff0;
 	height: 150px;

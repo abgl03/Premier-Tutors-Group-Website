@@ -81,7 +81,17 @@ ul.pull-right {
 	background-image: url('HeadImage/AboutImage.jpg');
 	background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
 	height: 360px;
+}
+
+.page-overlay {
+	background: rgba(0, 0, 0, 0.3);
+=======
+>>>>>>> master
+	height: 360px;
+	width: 950px;
+	margin: auto 0;
 }
 
 .page-overlay {
@@ -138,20 +148,26 @@ p {
 	text-align: center;
 }
 
+<<<<<<< HEAD
+=======
 body {
 	background-color: #f7f7f7;
 }
 
+>>>>>>> master
 .container {
 	width: 950px;
 }
 
+<<<<<<< HEAD
+=======
 .container.in-body {
 	width: 950px;
 	background-color: white;
 	box-shadow: 0 -6px #fcc326, 0 6px white, -10px 0 6px -4px #e0e0e0, 10px 0 6px -4px #e0e0e0;
 }
 
+>>>>>>> master
 .purple {
 	color: #60259c;
 }
@@ -161,11 +177,14 @@ body {
 	height: 40px;
 }
 
+<<<<<<< HEAD
+=======
 .white-line {
 	border-top: 1px solid white;
 	height: 40px;
 }
 
+>>>>>>> master
 .col-md-8 {
 	background-color: #fcc326;
 	padding: 30px;
@@ -174,24 +193,33 @@ body {
 .premier-story {
 	height: 220px;
 	background-color: #fcc326;
+<<<<<<< HEAD
+=======
 	padding-left: 30px;
 	margin-top: -38px;
 }
 
 .row-yellow {
 	background-color: #fcc326;
+>>>>>>> master
 }
 
 .vision {
 	height: 205px;
 	background-color: #fcc326;
+<<<<<<< HEAD
+=======
 	padding-left: 30px;
+>>>>>>> master
 }
 
 .values {
 	height: 175px;
 	background-color: #fcc326;
+<<<<<<< HEAD
+=======
 	padding-left: 30px;
+>>>>>>> master
 }
 
 .row-center {
@@ -213,8 +241,11 @@ body {
 
 .bottom-space {
 	height: 25px;
+<<<<<<< HEAD
+=======
 }
 
 .row-center {
 	margin: auto 0;
+>>>>>>> master
 }

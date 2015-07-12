@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+{% load staticfiles %}
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="{% static "fonts/Font.css" %}"/>
+<link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}"/>
+<link rel="stylesheet" type="text/css" href="{% static "home/css/Home.css" %}"/>
+
+<title>Premier Tutors Group</title>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <div class="nav">
+      <div class="container">
+        <div class="pull-left">
+        	<a href="/">
+			<img src="{% static "assets/Logo.png" %}" alt="Logo" id="logo" />
+            </a>
+        </div>
+        <ul class="pull-right">
+          <li><a href="/about-us">About Us</a></li>
+          <li><a href="/our-tutors">Our Tutors</a></li>
+          <li><a href="/our-services">Our Services</a></li>
+          <li><a href="/prices">Prices</a></li>
+          <li><a href="/contact-us">Contact Us</a></li>
+        </ul>
+      </div>   
+    </div>
+
+    <!-- Home -->
+
+    <div class="home">
+
+    <div class="container">
+
+      <div class="row page-image">
+        <div class="page-overlay">
+        <div class="col-md-12 page-head">
+          <div class="head-title text-center">
+          <h1>Ready for the next step?</h1>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Content -->
+
+      <div class="space"></div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <a href="/our-tutors" class="linkitem">
+          <div class="item">
+          <h6>Our Tutors</h6>
+          <p>Each member of our dedicated team of tutors are university undergraduates or graduates with experience in tutoring.</p>
+          <p>Our experience in different areas of study means we're ideally suited to provide guidance to all our students, whether it's about your grades, exams, or if you're not sure how to study - our tutors are happy to help!</p>
+          <b>READ MORE</b> <span class="glyphicon glyphicon-chevron-right"></span>
+          </div>
+        </a>
+        </div>
+
+        <div class="col-md-4"> 
+          <a href="/our-services" class="linkitem">
+          <div class="item">
+          <h6>Our Services</h6>
+          <p>We connect students with tutors and mentors who not only teach subjects, but also guide you throughout your studies with their experience and practical knowledge.</p>
+          <p>From one-on-one sessions to group classes to in-depth workshops with our professional mentors, we offer a wide range of services to give you the help you need to excel every step of the way.</p>
+          <b>READ MORE</b> <span class="glyphicon glyphicon-chevron-right"></span>
+          </div>
+        </a>
+        </div>
+
+        <div class="col-md-4">          
+          <div class="nonitem">
+          <h6>Building Bridges</h6>
+          <p>Bridging the gap between university and working in the real world can be uncertain and daunting. We want to help our students connect with working professional mentors.</p>
+          <p>With many years experience in their respective fields, our mentors can answer any questions you might have, while giving you advice and priceless life experience. </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="space"></div>
+
+      <div class="row">
+
+        <div class="col-md-12 purple hire-head">
+            <center><h3>Now Hiring!</h3></center>
+        </div> 
+        <div class="col-md-12 hire-space"></div>
+        <div class="col-md-4 purple-inside hire-desc">
+            <p class="white">Do you have experience teaching individual students or groups of students at a high school or university level?</p>
+            <p class="white">Please contact us! We have no restrictions on subjects.</p>
+            <p class="white">Proofreaders with fluency in English are also welcome to apply. Just email us with your CV to apply today!</p>
+        </div>  
+        <div class="col-md-8 purple-inside hire-img">
+            <img src="{% static 'home/assets/HireImage.jpg' %}" class="hire" />
+        </div> 
+      </div>
+
+    </div>
+
+    </div>
+
+    <div class="space"></div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="pull-left">
+          <p class="footer-text">Copyright &#169; Premier Tutors Group 2015
+          <img src="{% static 'assets/Space.png' %}" class="social-media"/></p>
+        </div>
+        <div class="pull-right">
+          <p class="footer-text">Follow us
+            <a href="https://www.facebook.com/premiertutorsgroup?fref=ts">
+            <img src="{% static "assets/Facebook.png" %}" alt="Facebook" class="social-media"
+            onmouseover="this.src='{% static "assets/FacebookYellow.png" %}';" onmouseout="this.src='{% static "assets/Facebook.png" %}';"/></a></p>
+        </div>
+      </div>   
+    </div>
+
+</body>
+
+</html>

@@ -97,6 +97,30 @@ p {
 
 /* Content */
 
+<<<<<<< HEAD
+.container {
+	width: 950px;
+}
+
+.page-image {
+	background-image: url('HeadImage/FrontImage.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 540px;
+}
+
+.page-overlay {
+	background: rgba(0, 0, 0, 0.3);
+	height: 540px;
+	width: 950px;
+	margin: auto 0;
+}
+
+.page-head {
+	height: 400px;
+}
+
+=======
 body {
 	background-color: #f7f7f7;
 }
@@ -129,13 +153,18 @@ body {
 	height: 280px;
 }
 
+>>>>>>> master
 .space {
 	height: 40px;
 }
 
 .head-title {
 	text-align: center;
+<<<<<<< HEAD
+	margin-top: 145px;
+=======
 	margin-top: 100px;
+>>>>>>> master
 }
 
 .item {
@@ -157,6 +186,7 @@ body {
 .item:hover {
 	background-color: #00BED4;
 }
+<<<<<<< HEAD
 
 .item:hover h6 {
 	color: #ffffff;
@@ -164,15 +194,31 @@ body {
 }
 
 .item:hover p {
+=======
+
+.item:hover h6 {
+>>>>>>> master
 	color: #ffffff;
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
+.item:hover b {
+=======
+.item:hover p {
+>>>>>>> master
+	color: #ffffff;
+	text-decoration: none;
+}
+
+<<<<<<< HEAD
+=======
 .item:hover b {
 	color: #ffffff;
 	text-decoration: none;
 }
 
+>>>>>>> master
 .linkitem:hover {
 	text-decoration: none;
 }
@@ -206,7 +252,11 @@ b {
 
 .hire {
 	height: 220px;
+<<<<<<< HEAD
+	margin-left: 38px;
+=======
 	margin-left: 11px;
+>>>>>>> master
 }
 
 .hire-head {
@@ -216,13 +266,19 @@ b {
 
 .hire-desc {
 	margin-left: 17px;
+<<<<<<< HEAD
+=======
 	padding-left: 20px;
 	height: 250px;
+>>>>>>> master
 }
 
 .hire-img {
 	width: 597px;
+<<<<<<< HEAD
+=======
 	height: 250px;
+>>>>>>> master
 }
 
 .hire-space {
