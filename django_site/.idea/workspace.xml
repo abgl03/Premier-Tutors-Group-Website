@@ -22,6 +22,7 @@
   </component>
   <component name="FileEditorManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
@@ -77,6 +78,9 @@
 =======
     <leaf />
 >>>>>>> origin/master
+=======
+    <leaf />
+>>>>>>> master
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,19 +91,28 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+=======
+>>>>>>> master
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/polls/views.py" />
         <option value="$PROJECT_DIR$/polls/templates/polls/index.html" />
         <option value="$PROJECT_DIR$/polls/urls.py" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
+>>>>>>> master
         <option value="$PROJECT_DIR$/tutors/admin.py" />
         <option value="$PROJECT_DIR$/tutors/templates/tutors/main.css" />
         <option value="$PROJECT_DIR$/tutors/models.py" />
         <option value="$PROJECT_DIR$/tutors/static/tutors/css/main.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors_Replace.html" />
         <option value="$PROJECT_DIR$/tutors/urls.py" />
         <option value="$PROJECT_DIR$/tutors/views.py" />
@@ -126,6 +139,15 @@
         <option value="$PROJECT_DIR$/about/templates/about/PTG_About.html" />
         <option value="$PROJECT_DIR$/tutors/static/tutors/css/Tutors.css" />
         <option value="$PROJECT_DIR$/about/static/about/css/About.css" />
+=======
+        <option value="$PROJECT_DIR$/tutors/static/tutors/css/Tutors.css" />
+        <option value="$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors_Replace.html" />
+        <option value="$PROJECT_DIR$/tutors/urls.py" />
+        <option value="$PROJECT_DIR$/tutors/views.py" />
+        <option value="$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html" />
+        <option value="$PROJECT_DIR$/tutors/static/tutors/css/Profile.css" />
+        <option value="$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -142,14 +164,22 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+>>>>>>> master
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+<<<<<<< HEAD
     <ConfirmationsSetting value="2" id="Add" />
+=======
+    <ConfirmationsSetting value="0" id="Add" />
+>>>>>>> master
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -183,6 +213,9 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="django_site" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> master
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,6 +243,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="tutors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -381,6 +415,9 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+=======
+              <option name="myItemId" value="mysite" />
+>>>>>>> master
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,6 +435,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\about\static\about\assets" />
       <recent name="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\services" />
       <recent name="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\services\static\services\assets" />
@@ -406,6 +444,12 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jason\Documents\GitHub\Premier_Tutors_Group_Website\django_site\about\templates\about" />
+=======
+      <recent name="C:\Users\Jason\Desktop\Projects\Premier Tutors Group\mysite\tutors\static\tutors\assets" />
+      <recent name="C:\Users\Jason\Desktop\Projects\Premier Tutors Group\mysite\tutors\static\tutors\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+>>>>>>> master
       <recent name="C:\Users\Jason\Desktop\Projects\Premier Tutors Group\mysite\tutors\static\tutors\profiles" />
       <recent name="C:\Users\Jason\Desktop\Projects\Premier Tutors Group\mysite\tutors\static\tutors\css" />
       <recent name="C:\Users\Jason\Desktop\Projects\Premier Tutors Group\mysite\tutors\templates\tutors" />
@@ -671,6 +715,7 @@
       <option name="number" value="Default" />
       <updated>1435755615493</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00001" summary="Profile page - aligned properly">
       <created>1435993548005</created>
       <option name="number" value="00001" />
@@ -769,6 +814,11 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
 =======
+=======
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+>>>>>>> master
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
@@ -779,6 +829,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 >>>>>>> origin/master
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -791,6 +842,11 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
 =======
+=======
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+>>>>>>> master
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -798,7 +854,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> master
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -814,6 +873,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Profile page - aligned properly" />
     <MESSAGE value="Direction links are functional now" />
@@ -828,6 +888,8 @@
     <MESSAGE value="Finished all pages" />
     <option name="LAST_COMMIT_MESSAGE" value="Finished all pages" />
   </component>
+=======
+>>>>>>> master
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -836,6 +898,7 @@
     <entry file="file://$PROJECT_DIR$/tutors/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
 <<<<<<< HEAD
           <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
           <folding>
@@ -851,10 +914,14 @@
 =======
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
 >>>>>>> origin/master
+=======
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/tutors/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -871,6 +938,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="223" column="15" selection-start-line="223" selection-start-column="15" selection-end-line="223" selection-end-column="15" />
 =======
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/tutors/static/tutors/css/Profile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -883,11 +952,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/static/assets/Facebook.png">
       <provider selected="true" editor-type-id="images">
@@ -899,11 +972,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
 =======
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> master
           <folding />
         </state>
       </provider>
@@ -912,10 +990,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <caret line="217" column="23" selection-start-line="217" selection-start-column="23" selection-end-line="217" selection-end-column="23" />
 =======
           <caret line="21" column="29" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="29" />
 >>>>>>> origin/master
+=======
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="29" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
@@ -929,6 +1011,7 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/tutors/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -936,12 +1019,15 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
 =======
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/tutors/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+<<<<<<< HEAD
 >>>>>>> origin/master
           </folding>
         </state>
@@ -994,6 +1080,8 @@
           <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
+=======
+>>>>>>> master
           </folding>
         </state>
       </provider>
@@ -1005,6 +1093,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.2245913">
@@ -1060,6 +1149,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/polls/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11513859">
@@ -1078,7 +1169,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28784648">
           <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1093,6 +1187,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <caret line="9" column="57" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="57" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
@@ -1105,6 +1200,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 =======
+=======
+>>>>>>> master
           <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
         </state>
       </provider>
@@ -1113,11 +1210,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="61" selection-start-line="64" selection-start-column="61" selection-end-line="64" selection-end-column="61" />
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/tutors/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1127,6 +1228,8 @@
             <element signature="e#0#32#0" expanded="true" />
           </folding>
 =======
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/polls/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15351813">
@@ -1138,6 +1241,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="71" />
+<<<<<<< HEAD
 >>>>>>> origin/master
         </state>
       </provider>
@@ -1193,10 +1297,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09594883">
           <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutors/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13432837">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/about/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17270789">
@@ -1211,20 +1325,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+=======
+    <entry file="file://$PROJECT_DIR$/tutors/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mysite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 =======
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/tutors/static/tutors/css/Profile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7884914">
           <caret line="163" column="9" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
+<<<<<<< HEAD
 >>>>>>> origin/master
           <folding />
         </state>
@@ -1291,26 +1415,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6301969">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+=======
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/prices/templates/prices/PTG_Prices.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6301969">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
 =======
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> master
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tutors/templates/tutors/PTG_Tutors.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state vertical-scroll-proportion="0.061269145">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="47" selection-end-column="57" />
@@ -1326,6 +1459,10 @@
         <state vertical-scroll-proportion="2.3970826">
           <caret line="87" column="15" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
 >>>>>>> origin/master
+=======
+        <state vertical-scroll-proportion="2.3970826">
+          <caret line="87" column="15" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
@@ -1340,6 +1477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state vertical-scroll-proportion="17.25">
           <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
@@ -1371,6 +1509,10 @@
         <state vertical-scroll-proportion="0.5519481">
           <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
 >>>>>>> origin/master
+=======
+        <state vertical-scroll-proportion="0.5519481">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
