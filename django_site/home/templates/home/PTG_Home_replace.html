@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+{% load staticfiles %}
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="{% static "fonts/Font.css" %}"/>
+<link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}"/>
+<link rel="stylesheet" type="text/css" href="{% static "home/css/Home.css" %}"/>
+
+<title>Premier Tutors Group</title>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <div class="nav">
+      <div class="container">
+        <div class="pull-left">
+        	<a href="http://www.premiertutorsgroup.com/">
+			<img src="{% static "assets/Logo.png" %}" alt="Logo" id="logo" />
+            </a>
+        </div>
+        <ul class="pull-right">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/tutors">Our Tutors</a></li>
+            <li><a href="/services">Our Services</a></li>
+            <li><a href="/prices">Prices</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
+        </ul>
+        <div class="pull-right"><div class="arrow"></div></div>
+      </div>   
+    </div>
+
+    <!-- Home -->
+    <div id="headerbackground"></div>
+
+<div class="container">
+	<div>
+		<div id="overlay">
+		</div>
+		<div class="jumbotron">
+			<div class="slogan text-center">
+		        <h1>PRACTICE.PREPARE.PERFORM.</h1>
+		    </div>
+		</div>
+	</div>
+
+
+    <div class="row row-centered">
+        <div class="col-xs-4 col-centered col-fixed" margin-left="100px"><div class="yellow item">
+        	<h2>OUR TUTORS</h2>
+        	<p>Each member of our 
+				dedicated team are university 
+				undergraduates or graduates 
+				in their respective fields. Our 
+				unique backgrounds and 
+				experience in various areas of 
+				study make us ideally suited 
+				to provide guidance to all our 
+				students.<br/><br/>
+
+				<b>READ MORE</b> <span class="glyphicon glyphicon-chevron-right" style="color:#60259c"></span>
+        	</p>
+        <div class="content"></div></div></div>
+        <div class="col-xs-4 col-centered col-fixed"><div class="yellow item">
+        	<h2>OUR SERVICES</h2>
+        	<p>Each member of our 
+				From one-on-one sessions to 
+				group classes, our team can 
+				tailor study options and services 
+				to suit the needs of every 
+				student. <br/><br/>
+				We are also the only tutoring 
+				collective to cater to foreign 
+				students. We offer proofreading 
+				services from essays and 
+				assignments to CVs and theses.<br/><br/>
+
+				<b>READ MORE</b> <span class="glyphicon glyphicon-chevron-right" style="color:#60259c"></span>
+        	</p>
+        <div class="content"></div></div></div>
+        <div class="col-xs-4 col-centered col-fixed"><div class="blue item">
+        	<h2>WE'RE HIRING</h2>
+        	<p>Each member of our 
+				Premier Tutors Group is now
+				recruiting! If you have experience 
+				teaching individual students or 
+				groups of students at a high 
+				school or university level, and 
+				you are interested in working 
+				with us, please contact us.<br/><br/>
+
+				<b>READ MORE</b> <span class="glyphicon glyphicon-chevron-right" style="color:#C1193D"></span>
+        	</p>
+        <div class="content"></div></div></div>
+        <div class="col-xs-12 col-centered col-fixed"><div class="item purple">
+        	<h2>UPCOMING EVENT</h2>
+
+        <div class="row row-centered">
+            <div class="col-xs-4 col-centered col-fixed event_desc">
+              <h2>TED X TALKS</h3>
+              <br/>
+              <p><b>WHEN: 22 JUNE 2015<br/>
+                  WHERE: AOTEA CENTRE</b><br/><br/>
+                  Unt endae. Et exero id quibuscia
+                  endipit iuscil et a non cor
+                  andaeprate voles vel moloreptatur.
+                  Nequidi nonse doluptibus, estrum
+                  eiunto exerio. Genti nullest, nist,
+                  volorpore volut maio blaut prat a
+                  ea ditat et quiatiusdae di sitissit
+                  doluptam quod quam siminvenimo
+                  quundus.</p>
+            </div>
+
+            <div class="col-xs-8 col-centered col-fixed event_image">
+                <img src="{% static "home/assets/ted_event.png" %}">
+            </div>
+        </div>
+      </div></div>
+        <div class="col-xs-6 col-centered col-fixed"><div class="item"><div class="content"></div></div></div>
+    </div>
+
+</div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+      <div class="container">
+        <div class="pull-left">
+          <p class="footer-text">Copyright &#169; Premier Tutors Group 2015</p>
+        </div>
+        <ul class="pull-right">
+            <li class="footer-text">Follow us</li>
+            <li><a href="https://www.facebook.com/premiertutorsgroup?fref=ts"><img
+                    src="{% static "assets/Facebook.png" %}" alt="Facebook" class="social-media"/></a></li>
+            <li><a href="http://www.twitter.com"><img src="{% static "assets/Twitter.png" %}" alt="Twitter"
+                                                      class="social-media"/></a></li>
+            <li><a href="http://www.instagram.com"><img src="{% static "assets/Instagram.png" %}" alt="Instagram"
+                                                        class="social-media"/></a></li>
+        </ul>
+      </div>   
+    </div>
+
+</body>
+
+</html>
