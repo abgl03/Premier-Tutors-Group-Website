@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+{% load staticfiles %}
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link rel="stylesheet" type="text/css" href="{% static "fonts/Font.css" %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static "tutors/css/Profile.css" %}"/>
+
+    <title>Premier Tutors Group</title>
+
+    <style type="text/css">
+        {% block style %}
+            {% for peer in related %}
+                .peer{{ peer.id }} {
+                    background-image: url('../../static/profiles/{{ peer.id }}/{{ peer.id }}.jpg');
+                }
+            {% endfor %}
+
+            .profile-picture {
+                background-image: url('../../static/profiles/{{ tutor.id }}/{{ tutor.id }}.jpg');
+            }
+        {% endblock %}
+    </style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<div class="nav">
+    <div class="container">
+        <div class="pull-left">
+            <a href="http://www.premiertutorsgroup.com/">
+                <img src="{% static "assets/Logo.png" %}" alt="Logo" id="logo"/>
+            </a>
+        </div>
+        <ul class="pull-right">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/tutors">Our Tutors</a></li>
+            <li><a href="/services">Our Services</a></li>
+            <li><a href="/prices">Prices</a></li>
+            <li><a href="/events">Events</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
+        </ul>
+        <div class="pull-right">
+            <div class="arrow"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Profile -->
+<div class="container">
+    <div class="row row-center">
+        <div class="col-xs-4 col-centered text-center">
+            <div class="profile-picture">
+
+            </div>
+        </div>
+        <div class="col-xs-8 col-centered right">
+            <div class="title yellow-background">
+                <h3>{{ tutor.first_name }}</h3>
+                <h6 class="purple">{{ tutor.degree }}</h6>
+            </div>
+            <div class="info">
+                <ul>
+                    <li>
+                        Position: {{ tutor_roles }}
+                    </li>
+                    <li>
+                        Age: {{ age }}
+                    </li>
+                    <li>
+                        University: {{ tutor.university }}
+                    </li>
+                    <li>
+                        Status of Study: {{ tutor.status_of_study }}
+                    </li>
+                    <li>
+                        Interests: {{ tutor.interests }}
+                    </li>
+                    <br/>
+                    <li>
+                        Availability: {{ tutor.availability }}
+                    </li>
+                    <br/>
+                    <li>
+                        {{ tutor.desc }}
+                    </li>
+                </ul>
+                <a href="#">
+                    <div class="book-now-button yellow purple-background">
+                        <h3 class="yellow">BOOK NOW</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-centered">
+        <a href="{{ tutor.id|add:"-1" }}">
+            <div class="col-xs-4 col-centered purple">
+                {% if tutor.id > 1 %}
+                    <p><span class="glyphicon glyphicon-chevron-left"></span> Previous Tutor</p>{% endif %}
+            </div>
+        </a>
+
+        <a href="/tutors">
+            <div class="col-xs-4 col-centered purple back-to-list"><p class="text-center">Back to List</p></div>
+        </a>
+        <a href="{{ tutor.id|add:"1" }}">
+            <div class="col-xs-4 col-centered purple">
+                {% if number_of_tutors != tutor.id %}
+                    <p class="text-right">Next Tutor <span class="glyphicon glyphicon-chevron-right"></span>
+                    </p>{% endif %}
+            </div>
+        </a>
+    </div>
+
+    <div class="row row-centered">
+        <div class="col-xs-12 col-centered related-tutors-head yellow-background"><h6 class="text-left purple">RELATED
+            TUTORS</h6></div>
+    </div>
+
+    <div class="row row-centered rel">
+        {% for peer in related %}
+            <a href="{{ peer.id }}">
+                <div class="col-xs-2 col-centered col-fixed peer-profile">
+                    <div class="peer peer{{ peer.id }}">
+                        <div class="wrapper reveal-partial"></div>
+                        <div class="reveal-full">
+                            <h6>{{ peer.first_name.upper }} {{ peer.last_name.upper }}</h6></br>
+                            <p class="text-center white">
+                                {% for subject in peer.tutorsubject_set.all %}
+                                    {{ subject }}<br/>
+                                {% endfor %}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+
+</div>
+
+
+<!-- Footer -->
+
+<div class="footer">
+    <div class="container">
+        <div class="pull-left">
+            <p class="footer-text">Copyright &#169; Premier Tutors Group 2015</p>
+        </div>
+        <ul class="pull-right">
+            <li class="footer-text">Follow us</li>
+            <li><a href="https://www.facebook.com/premiertutorsgroup?fref=ts"><img
+                    src="{% static "assets/Facebook.png" %}" alt="Facebook" class="social-media"/></a></li>
+            <li><a href="http://www.twitter.com"><img src="{% static "assets/Twitter.png" %}" alt="Twitter"
+                                                      class="social-media"/></a></li>
+            <li><a href="http://www.instagram.com"><img src="{% static "assets/Instagram.png" %}" alt="Instagram"
+                                                        class="social-media"/></a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+
+</html>

@@ -7,7 +7,7 @@
 .nav a {
 	font-family: roboto-bold;
 	color: #60259c;
-	font-size: 12px;
+	font-size: 13px;
   	padding: 14px 16px;
   	text-transform: uppercase;
 	text-decoration: none;
@@ -18,23 +18,12 @@
 }
 
 .nav {
-	height: 120px;
+	height: 100px;
 	background-color: #fcc326;
 }
 
 .nav a:hover {
 	color: #ffffff;
-}
-
-.arrow {
-	width: 0; 
-	height: 0; 
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #fcc326;
-	margin: auto;
-	margin-right: 520px;
-	margin-top: 18px;
 }
 
 /* Footer */
@@ -68,34 +57,27 @@ li.footer-text {
 }
 
 .social-media {
+	display: inline;
 	width: 30px;
 }
 
+
 ul.pull-right {
 	padding: 36px 0px;
-}
-
-.page-image {
-	background-image: url('AboutImage.jpg');
-	height: 360px;
-}
-
-.page-head {
-	height: 300px;
 }
 
 /* Fonts */
 
 h1 {
 	font-family: ttrounds-black;
-	font-size: 72px;
+	font-size: 42px;
 	color: #ffffff;
 	text-transform: uppercase;
 }
 
-h2 {
-	font-family: ttrounds-black;
-	font-size: 56px;
+h6 {
+	font-family: 'ttrounds-black';
+	font-size: 20px;
 	color: #60259c;
 	text-transform: uppercase;
 }
@@ -103,113 +85,136 @@ h2 {
 h3 {
 	font-family: ttrounds-black;
 	font-size: 38px;
-	color: #60259c;
+	color: #fcc326;
 	text-transform: uppercase;
-}
-
-h6 {
-	font-family: ttrounds-black;
-	font-size: 30px;
-	color: #60259c;
-	text-transform: uppercase;
-	text-align: left;
-	margin-left: 30px;
 }
 
 p {
 	font-family: roboto-regular;
 	font-size: 14px;
+	color: black;
 }
 
-/* Home */
+/* Content */
 
-.container .jumbotron {
-    border-radius: 0;
+.container {
+	width: 950px;
 }
 
-.jumbotron {
-  background-image:url('../Image/FrontImage - Copy.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:550px;
-  z-index:-2;
-  border-radius: 0;
+.page-image {
+	background-image: url('HeadImage/FrontImage.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+	height: 540px;
 }
 
-.jumbotron .slogan {
-  position: relative;
-  top:170px;
-  z-index:1;
-  text-align: center;
+.page-overlay {
+	background: rgba(0, 0, 0, 0.3);
+	height: 540px;
+	width: 950px;
+	margin: auto 0;
 }
 
-.jumbotron h1 {
-  color: #fff;
-  font-size: 40px;
-  font-family: 'ttrounds-black', sans-serif;
-  src: url(TTRounds-Black.otf);
-}
-
-.item {
-	padding:40px;
+.page-head {
 	height: 400px;
 }
 
-.item h2{
-  	font-size: 20px;
-	font-family: 'ttrounds-black', sans-serif;
-  	src: url(TTRounds-Black.otf);
+.space {
+	height: 40px;
 }
 
-.yellow {
+.head-title {
+	text-align: center;
+	margin-top: 145px;
+}
+
+.item {
+	margin-left: 2px;
 	background-color: #fcc326;
+	width: 280px;
+	height: 350px;
+	padding: 20px;
 }
 
-.yellow h2 {
-  	color: #60259c;
+.nonitem {
+	margin-left: 2px;
+	background-color: #fcc326;
+	width: 280px;
+	height: 350px;
+	padding: 20px;
 }
 
-.blue {
+.item:hover {
 	background-color: #00BED4;
-
-	color: #ffffff;
 }
 
-.blue h2 {
+.item:hover h6 {
 	color: #ffffff;
+	text-decoration: none;
+}
+
+.item:hover p {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.item:hover b {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.linkitem:hover {
+	text-decoration: none;
+}
+
+b {
+	font-family: roboto-regular;
+	font-size: 13px;
+	color: black;
+}
+
+.glyphicon-chevron-right {
+	color: #60259c;
+}
+
+.item:hover  .glyphicon-chevron-right {
+	color: #C1193D;
 }
 
 .purple {
 	background-color: #60259c;
-	margin-top: 25px;
-	height: 100%;
 }
 
-.purple h2 {
-	text-align: center;
-	color: #fcc326;
-	font-size: 30px;
+.purple-inside {
+	background-color: #60259c;
+	height: 300px;
 }
 
-.event_desc {
-	padding-left: 3%;
-	color:#ffffff;
+.white {
+	color: white;
 }
 
-.event_desc h2 {
-	text-align: left;
-	color:#ffffff;
+.hire {
+	height: 220px;
+	margin-left: 38px;
 }
 
-.event_image {
-	background-image: url('../Image/ted_event.png');
+.hire-head {
+	width: 913px;
+	margin-left: 17px;
 }
 
-.event_image img {
-	max-width:100%;
-	max-height:100%;
+.hire-desc {
+	margin-left: 17px;
 }
 
-.footer {
-	margin-top: 0;
+.hire-img {
+	width: 597px;
+}
+
+.hire-space {
+	height: 10px;
+	width: 913px;
+	margin-left: 17px;
+	background-color: #60259c;
 }

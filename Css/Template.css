@@ -60,14 +60,8 @@ p.footer-text {
   	margin-top: 30px;
 }
 
-li.footer-text {
-	font-family: roboto-bold;
-	color: #ffffff;
-	font-size: 12px;
-  	padding: 14px 16px;
-}
-
 .social-media {
+	display: inline;
 	width: 30px;
 }
 
