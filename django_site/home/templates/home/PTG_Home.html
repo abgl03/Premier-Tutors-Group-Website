@@ -1,13 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-
+{% load staticfiles %}
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<link rel="stylesheet" type="text/css" href="Css/Font.css" />
-<link rel="stylesheet" type="text/css" href="Css/bootstrap.css" />
-<link rel="stylesheet" type="text/css" href="Css/Home.css" />
+<link rel="stylesheet" type="text/css" href="{% static "fonts/Font.css" %}"/>
+<link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}"/>
+<link rel="stylesheet" type="text/css" href="{% static "home/css/Home.css" %}"/>
 
 <title>Premier Tutors Group</title>
 
@@ -21,15 +21,15 @@
       <div class="container">
         <div class="pull-left">
         	<a href="http://www.premiertutorsgroup.com/">
-			<img src="Image/Logo.png" alt="Logo" id="logo" />
+			<img src="{% static "assets/Logo.png" %}" alt="Logo" id="logo" />
             </a>
         </div>
         <ul class="pull-right">
-          <li><a href="http://www.premiertutorsgroup.com/about-us">About Us</a></li>
-          <li><a href="http://www.premiertutorsgroup.com/our-tutors">Our Tutors</a></li>
-          <li><a href="http://www.premiertutorsgroup.com/our-services">Our Services</a></li>
-          <li><a href="http://www.premiertutorsgroup.com/prices">Prices</a></li>
-          <li><a href="http://www.premiertutorsgroup.com/contact-us">Contact Us</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/tutors">Our Tutors</a></li>
+            <li><a href="/services">Our Services</a></li>
+            <li><a href="/prices">Prices</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
         </ul>
       </div>   
     </div>
@@ -57,7 +57,7 @@
       <div class="row">
 
         <div class="col-md-4">
-          <a href="http://www.premiertutorsgroup.com/our-tutors" class="linkitem">
+          <a href="/tutors" class="linkitem">
           <div class="item">
           <h6>Our Tutors</h6>
           <p>Each member of our dedicated team of tutors are university undergraduates or graduates with experience in tutoring.</p>
@@ -68,7 +68,7 @@
         </div>
 
         <div class="col-md-4"> 
-          <a href="http://www.premiertutorsgroup.com/our-services" class="linkitem">         
+          <a href="/services" class="linkitem">
           <div class="item">
           <h6>Our Services</h6>
           <p>We connect students with tutors and mentors who not only teach subjects, but also guide you throughout your studies with their experience and practical knowledge.</p>
@@ -102,7 +102,7 @@
             <p class="white">Proofreaders with fluency in English are also welcome to apply. Just email us with your CV to apply today!</p>
         </div>  
         <div class="col-md-8 purple-inside hire-img">
-            <img src="Image/HireImage.jpg" class="hire" />
+            <img src="{% static 'home/assets/HireImage.jpg' %}" class="hire" />
         </div> 
       </div>
 
@@ -123,8 +123,8 @@
         <div class="pull-right">
           <p class="footer-text">Follow us
             <a href="https://www.facebook.com/premiertutorsgroup?fref=ts">
-            <img src="Image/Facebook.png" alt="Facebook" class="social-media"
-            onmouseover="this.src='Image/FacebookYellow.png';" onmouseout="this.src='Image/Facebook.png';"/></a></p>
+            <img src="{% static "assets/Facebook.png" %}" alt="Facebook" class="social-media"
+            onmouseover="this.src='{% static "assets/FacebookYellow.png" %}';" onmouseout="this.src='{% static "assets/FacebookYellow.png" %}';"/></a></p>
         </div>
       </div>   
     </div>
