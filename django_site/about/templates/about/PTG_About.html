@@ -1,235 +1,171 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-{% load staticfiles %}
+
 <head>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <!-- Stylesheets -->
+<!-- Stylesheets -->
 
-    <link rel="stylesheet" type="text/css" href="{% static "fonts/Font.css" %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static "about/css/About.css" %}"/>
+<link rel="stylesheet" type="text/css" href="Css/Font.css" />
+<link rel="stylesheet" type="text/css" href="Css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="Css/About.css" />
 
-    <title>About Us</title>
-
-    <style type="text/css">
-        {% block style %}
-            .margaret {
-                background-image: url({% static "about/assets/Margaret.jpg" %});
-            }
-            .marsha {
-                background-image: url({% static "about/assets/Marsha.jpg" %});
-            }
-            .mittal {
-                background-image: url({% static "about/assets/mittal.jpg" %});
-            }
-            .varun {
-                background-image: url({% static "about/assets/Varun.jpg" %});
-            }
-        {% endblock %}
-    </style>
+<title>About Us</title>
 
 </head>
 
 <body>
 
-<!-- Navbar -->
+    <!-- Navbar -->
 
-<div class="nav">
-    <div class="container">
+    <div class="nav">
+      <div class="container">
         <div class="pull-left">
-            <a href="http://www.premiertutorsgroup.com/">
-                <img src="{% static "assets/Logo.png" %}" alt="Logo" id="logo"/>
+        	<a href="http://www.premiertutorsgroup.com/">
+			<img src="Image/Logo.png" alt="Logo" id="logo" />
             </a>
         </div>
         <ul class="pull-right">
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/tutors">Our Tutors</a></li>
-            <li><a href="/services">Our Services</a></li>
-            <li><a href="/prices">Prices</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="/contact-us">Contact Us</a></li>
+          <li><a href="http://www.premiertutorsgroup.com/about-us">About Us</a></li>
+          <li><a href="http://www.premiertutorsgroup.com/our-tutors">Our Tutors</a></li>
+          <li><a href="http://www.premiertutorsgroup.com/our-services">Our Services</a></li>
+          <li><a href="http://www.premiertutorsgroup.com/prices">Prices</a></li>
+          <li><a href="http://www.premiertutorsgroup.com/contact-us">Contact Us</a></li>
         </ul>
-        <div class="pull-right">
-            <div class="arrow"></div>
-        </div>
+        <div class="pull-right"><div class="arrow"></div></div>
+      </div>   
     </div>
-</div>
 
-<!-- Header -->
+    <!-- Header -->
 
-<div class="about-us">
+    <div class="about-us">
 
     <div class="container">
 
-        <div class="row page-image">
-            <div class="col-md-12 page-head">
-                <center><h1>About Us</h1></center>
-            </div>
+      <div class="row page-image">
+        <div class="page-overlay">
+        <div class="col-md-12 page-head">
+          <div class="head-title text-center">
+          <h1>About Us</h1>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Premier Story -->
+
+      <div class="row">
+
+        <div class="col-md-4 premier-story">
+          <h2>The Premier Story</h2>
         </div>
 
-        <!-- Premier Story -->
-
-        <div class="row">
-
-            <div class="col-md-3 premier-story">
-                <h2>The Premier Story</h2>
-            </div>
-
-            <div class="col-md-9 premier-story">
-                <p class="purple">Premier Tutors Group is a tutoring collective that aims to bring tutors and students
-                    together in a collaborative and social way. We are based in Auckland, New Zealand.</p>
-
-                <p class="purple">In Auckland, there is a huge gap between what students were paying for tutoring,
-                    and what the tutors themselves were getting paid. Many companies charge upwards
-                    of $35 an hour per student, while tutors get paid minimum wage, despite doing the
-                    majority of the work.</p>
-
-                <p class="purple">Our collective began as an association for the benefit of tutors and students alike.
-                    We wanted to act as a liaison between these two groups, allowing for lower costs to
-                    students, as well as higher wages for tutors. At Premier Tutors Group, your tutor or
-                    proofreader will always be fairly compensated.</p>
-
-                <p class="purple">As our collective grew, our vision also began to evolve.</p>
-            </div>
-
-            <div class="col-md-3 vision">
-                <h3>Our Vision</h3>
-            </div>
-
-            <div class="col-md-9 vision">
-                <p>Premier Tutors Group is not your average tutoring company. Firstly, we aren’t a
-                    company. We are a collective. We are a team of tutors, proofreaders and directors
-                    who work together to provide our students with the best quality of service.</p>
-
-                <p>We believe in social, inclusive learning, and we provide many opportunities to meet
-                    and socialize with other tutors and students.</p>
-
-                <p>We have two main goals at PTG.</p>
-
-                <p>Firstly, we want to create a bridge that extends from high school through until after
-                    graduation: a support network between those who are seeking help for the next
-                    stage of their education, and those who have already been there.</p>
-
-                <p>Our university tutors provide guidance for high school students, while our
-                    professional mentors provide guidance for our university students.</p>
-
-                <p>Secondly, in the long term we aim to open a PTG headquarters: a shared space for
-                    students and tutors to work together.</p>
-
-                <p>With classrooms for group tutoring sessions, open plan areas for collaborative
-                    learning and space for seminars and workshops by our professional mentors.</p>
-            </div>
-
-            <div class="col-md-3 values">
-                <h3>Our Values</h3>
-            </div>
-
-            <div class="col-md-9 values">
-                <p>Premier Tutors Group works for our tutors, proofreaders and students. We will
-                    always do our best to make sure our students receive the best education, and our
-                    tutors and proofreaders are fairly treated.</p>
-            </div>
-
+        <div class="col-md-8 premier-story">
+          <p class="purple">Premier Tutors Group is a tutoring collective that aims to bring tutors and students together in a collaborative and social way. We are based in Auckland, New Zealand. </p>
+          <p class="purple">Our collective began with the goal of benefitting students and tutors alike. We act as a liaison between these two groups, allowing for lower costs to students, and helping tutors earn while they study.</p>
         </div>
 
-        <!-- Our Directors -->
-
-        <div class="row row-center">
-
-            <div class="col-md-12 space">
-                <center><h1 class="purple">Our Directors</h1></center>
-            </div>
-
-            <div class="col-md-4 box">
-                <div class="margaret photo"></div>
-                <div class="info">
-                    <h6>Margaret</h6>
-
-                    <p class="director-text purple">Managing Director</p>
-
-                    <p class="director-text purple">BA/BCom majoring in Finance, Economics and Japanese</p>
-
-                    <p class="director-text">Margaret completed her studies at the
-                        University of Auckland. During that
-                        time, she completed separate exchange
-                        programs at Tokyo University of Foreign
-                        Studies and Keio University.</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 box">
-                <div class="marsha photo"></div>
-                <div class="info">
-                    <h6>Marsha</h6>
-
-                    <p class="director-text purple">Creative Director</p>
-
-                    <p class="director-text purple">BDes majoring in Graphic Design</p>
-
-                    <p class="director-text">Marsha completed her studies at AUT
-                        University in graphics design.</p>
-
-                    <p class="director-text">She has worked for Lotto NZ and Big Gay
-                        Out. She has worked extensively in graphic
-                        design for studios as well as freelance
-                        work.</p>
-                </div>
-            </div>
-            <div class="col-md-12 yellow-line"></div>
-
-            <div class="col-md-4 taller box">
-                <div class="mittal photo"></div>
-                <div class="info">
-                    <h6>Mittal</h6>
-
-                    <p class="director-text purple">Co-Marketing Director</p>
-
-                    <p class="director-text purple">MBA</p>
-
-                    <p class="director-text">Mittal is currently studying at Auckland
-                        University, specialising in marketing.</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 taller box">
-                <div class="varun photo"></div>
-                <div class="info">
-                    <h6>Varun</h6>
-
-                    <p class="director-text purple">Co-Marketing Director</p>
-
-                    <p class="director-text purple">Post Graduate Diploma</p>
-
-                    <p class="director-text">Varun is currently studying at AUT
-                        University, specialising in marketing.</p>
-                </div>
-            </div>
+        <div class="col-md-4 vision">
+          <h3>Our Vision</h3>
         </div>
+
+        <div class="col-md-8 vision">
+          <p>Premier Tutors Group is not your average tutoring company. We are a collective, a team of tutors, proofreaders and directors who work together to provide our students with the best quality of service, and help them prepare for their next step.</p>
+          <p>It's not always clear which path is best, and sometimes we make mistakes. 
+We believe strongly that the best way to prepare is to talk to someone with experience. With that in mind, we want to create a bridge from high school through to after graduation, with our working mentors and uni mentors ready to provide life experience and guidance through each step of the way.</p>
+        </div>
+
+        <div class="col-md-4 values">
+          <h3>Our Values</h3>
+        </div>
+
+        <div class="col-md-8 values">
+          <p>Premier Tutors Group works for our students, tutors and proofreaders. We will always do our best to make sure our students receive the best education and preparation, and our tutors and proofreaders get the support they need.</p>
+          <p>We also believe in social, inclusive learning, and we provide many opportunities to meet and socialise with other tutors and students.</p>
+        </div>
+
+      </div>
+
+      <!-- Our Directors -->
+
+      <div class="row row-center">
+        
+        <div class="bottom-space"></div>
+        
+        <div class="col-md-12 space">
+          <h2 class="purple">Our Directors</h2>
+        </div>
+
+        <div class="col-md-4 taller">
+          <img src="Image/Director.png" alt="Margaret" />
+          <h6>Margaret</h6>
+          <p class="director-text purple">Managing Director</p>
+          <p class="director-text purple">BA/BCom majoring in Finance, Economics and Japanese</p>
+          <p class="director-text">Margaret completed her studies at the
+University of Auckland. During that
+time, she completed separate exchange
+programs at Tokyo University of Foreign
+Studies and Keio University.</p>
+        </div>
+
+        <div class="col-md-4 taller">
+          <img src="Image/Director.png" alt="Marsha" />
+          <h6>Marsha</h6>
+          <p class="director-text purple">Creative Director</p>
+          <p class="director-text purple">BDes majoring in Graphic Design</p>
+          <p class="director-text">Marsha completed her studies at AUT
+University in graphics design.</p>
+          <p class="director-text">She has worked for Lotto NZ and Big Gay
+Out. She has worked extensively in graphic
+design for studios as well as freelance
+work.</p>
+        </div>
+
+        <div class="col-md-12 yellow-line"></div>
+
+        <div class="col-md-4">
+          <img src="Image/Director.png" alt="Mittal" />
+          <h6>Mittal</h6>
+          <p class="director-text purple">Co-Marketing Director</p>
+          <p class="director-text purple">MBA</p>
+          <p class="director-text">Mittal is currently studying at the University of Auckland. While having studied mass media for her undergraduate degree, she also has a strong interest in marketing and photography.</p>
+          <p class="director-text">In India, she has worked for companies as a marketing assistant, business developer and photographer.</p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="Image/Director.png" alt="Varun" />
+          <h6>Varun</h6>
+          <p class="director-text purple">Co-Marketing Director</p>
+          <p class="director-text purple">Post Graduate Diploma</p>
+          <p class="director-text">Varun is currently studying at AUT University, he received his BCom (hons) from Calcutta University.</p>
+          <p class="director-text">He has worked as a marketing and business developer manager for Arkos Events, and in sales and marketing for Swissotel Kolkata.</p>
+        </div>
+
+      </div>
+
     </div>
 
-</div>
+    </div>
 
-<!-- Footer -->
+    <div class="bottom-space"></div>
 
-<div class="footer">
-    <div class="container">
+    <!-- Footer -->
+
+    <div class="footer">
+      <div class="container">
         <div class="pull-left">
-            <p class="footer-text">Copyright &#169; Premier Tutors Group 2015</p>
+          <p class="footer-text">Copyright &#169; Premier Tutors Group 2015
+          <img src="Image/Space.png" class="social-media"/></p>
         </div>
-        <ul class="pull-right">
-            <li class="footer-text">Follow us</li>
-            <li><a href="https://www.facebook.com/premiertutorsgroup?fref=ts"><img
-                    src="{% static "assets/Facebook.png" %}" alt="Facebook" class="social-media"/></a></li>
-            <li><a href="http://www.twitter.com"><img src="{% static "assets/Twitter.png" %}" alt="Twitter"
-                                                      class="social-media"/></a></li>
-            <li><a href="http://www.instagram.com"><img src="{% static "assets/Instagram.png" %}" alt="Instagram"
-                                                        class="social-media"/></a></li>
-        </ul>
+        <div class="pull-right">
+          <p class="footer-text">Follow us
+            <a href="https://www.facebook.com/premiertutorsgroup?fref=ts">
+            <img src="Image/Facebook.png" alt="Facebook" class="social-media"
+            onmouseover="this.src='Image/FacebookYellow.png';" onmouseout="this.src='Image/Facebook.png';"/></a></p>
+        </div>
+      </div>   
     </div>
-</div>
 
 </body>
 
