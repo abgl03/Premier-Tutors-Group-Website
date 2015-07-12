@@ -143,8 +143,22 @@ p {
 
 /* Content */
 
+body {
+	background-color: #f7f7f7;
+}
+
 .container {
 	width: 950px;
+}
+
+.container.in-body {
+	width: 950px;
+	background-color: white;
+	box-shadow: 0 -6px #fcc326, 0 6px white, -10px 0 6px -4px #e0e0e0, 10px 0 6px -4px #e0e0e0;
+}
+
+.row-yellow {
+	background-color: #fcc326;
 }
 
 .head-desc {
@@ -194,7 +208,15 @@ a.book-now {
 }
 
 .yellow-line {
-	border-top: 1px solid #fcc326;
+	border-bottom: 1px solid #fcc326;
+	height: 20px;
+	margin-top: 20px;
+	margin-left: -30px;
+	width: 850px;
+}
+
+.white-line {
+	border-bottom: 1px solid white;
 	height: 20px;
 	margin-top: 20px;
 }

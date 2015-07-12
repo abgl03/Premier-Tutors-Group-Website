@@ -144,8 +144,18 @@ p {
 
 /* Content */
 
+body {
+	background-color: #f7f7f7;
+}
+
 .container {
 	width: 950px;
+}
+
+.container.in-body {
+	width: 950px;
+	background-color: white;
+	box-shadow: 0 -6px #fcc326, 0 6px white, -10px 0 6px -4px #e0e0e0, 10px 0 6px -4px #e0e0e0;
 }
 
 .head-desc {

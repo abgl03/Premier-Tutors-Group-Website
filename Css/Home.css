@@ -97,26 +97,36 @@ p {
 
 /* Content */
 
+body {
+	background-color: #f7f7f7;
+}
+
 .container {
 	width: 950px;
+}
+
+.container.in-body {
+	width: 950px;
+	background-color: white;
+	box-shadow: 0 -6px #fcc326, 0 6px white, -10px 0 6px -4px #e0e0e0, 10px 0 6px -4px #e0e0e0;
 }
 
 .page-image {
 	background-image: url('HeadImage/FrontImage.jpg');
 	background-repeat: no-repeat;
     background-size: cover;
-	height: 540px;
+	height: 440px;
 }
 
 .page-overlay {
-	background: rgba(0, 0, 0, 0.3);
-	height: 540px;
+	background: rgba(0, 0, 0, 0.2);
+	height: 440px;
 	width: 950px;
 	margin: auto 0;
 }
 
 .page-head {
-	height: 400px;
+	height: 280px;
 }
 
 .space {
@@ -125,7 +135,7 @@ p {
 
 .head-title {
 	text-align: center;
-	margin-top: 145px;
+	margin-top: 100px;
 }
 
 .item {
@@ -196,7 +206,7 @@ b {
 
 .hire {
 	height: 220px;
-	margin-left: 38px;
+	margin-left: 11px;
 }
 
 .hire-head {
@@ -206,10 +216,13 @@ b {
 
 .hire-desc {
 	margin-left: 17px;
+	padding-left: 20px;
+	height: 250px;
 }
 
 .hire-img {
 	width: 597px;
+	height: 250px;
 }
 
 .hire-space {

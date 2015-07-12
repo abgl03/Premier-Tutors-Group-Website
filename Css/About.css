@@ -138,8 +138,18 @@ p {
 	text-align: center;
 }
 
+body {
+	background-color: #f7f7f7;
+}
+
 .container {
 	width: 950px;
+}
+
+.container.in-body {
+	width: 950px;
+	background-color: white;
+	box-shadow: 0 -6px #fcc326, 0 6px white, -10px 0 6px -4px #e0e0e0, 10px 0 6px -4px #e0e0e0;
 }
 
 .purple {
@@ -151,6 +161,11 @@ p {
 	height: 40px;
 }
 
+.white-line {
+	border-top: 1px solid white;
+	height: 40px;
+}
+
 .col-md-8 {
 	background-color: #fcc326;
 	padding: 30px;
@@ -159,16 +174,24 @@ p {
 .premier-story {
 	height: 220px;
 	background-color: #fcc326;
+	padding-left: 30px;
+	margin-top: -38px;
+}
+
+.row-yellow {
+	background-color: #fcc326;
 }
 
 .vision {
 	height: 205px;
 	background-color: #fcc326;
+	padding-left: 30px;
 }
 
 .values {
 	height: 175px;
 	background-color: #fcc326;
+	padding-left: 30px;
 }
 
 .row-center {
@@ -190,4 +213,8 @@ p {
 
 .bottom-space {
 	height: 25px;
+}
+
+.row-center {
+	margin: auto 0;
 }

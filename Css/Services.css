@@ -120,7 +120,7 @@ h3 {
 
 h6 {
 	font-family: ttrounds-black;
-	font-size: 22px;
+	font-size: 20px;
 	color: #60259c;
 	text-transform: uppercase;
 	text-align: left;
@@ -135,8 +135,23 @@ p {
 
 /* Content */
 
+body {
+	background-color: #f7f7f7;
+}
+
 .container {
 	width: 950px;
+}
+
+.container.in-body {
+	width: 950px;
+	background-color: white;
+	box-shadow: 0 -6px #fcc326, 0 6px white, -10px 0 6px -4px #e0e0e0, 10px 0 6px -4px #e0e0e0;
+}
+
+.row-center {
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .head-desc {
@@ -150,8 +165,8 @@ p {
 }
 
 .yellow-line {
-	border-top: 1px solid #fcc326;
-	height: 20px;
+	border-bottom: 1px solid #fcc326;
+	padding: 0px 20px;
 }
 
 .row-center {
@@ -159,7 +174,7 @@ p {
 }
 
 .col-md-4 {
-	padding: 30px 20px;
+	padding: 30px 10px;
 }
 
 .icon {
@@ -191,7 +206,7 @@ a.book-now {
 }
 
 .text {
-	height: 280px;
+	height: 300px;
 }
 
 .bottom-space {
