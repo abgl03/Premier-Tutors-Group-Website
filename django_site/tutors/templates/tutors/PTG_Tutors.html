@@ -1,124 +1,144 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-{% load staticfiles %}
+
 <head>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-    <link rel="stylesheet" type="text/css" href="{% static "fonts/Font.css" %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.css" %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static "tutors/css/Tutors.css" %}"/>
+<link rel="stylesheet" type="text/css" href="Css/Font.css" />
+<link rel="stylesheet" type="text/css" href="Css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="Css/Tutors.css" />
 
-    <title>Our Tutors</title>
-
-    <style type="text/css">
-        {% block style %}
-            {% for tutor in tutors_list %}
-                .box{{ tutor.id }} {
-                    background-image: url('../../static/profiles/{{ tutor.id }}/{{ tutor.id }}.jpg');
-                }
-            {% endfor %}
-        {% endblock %}
-    </style>
+<title>Our Tutors</title>
 
 </head>
 
 <body>
 
-<!-- Navbar -->
+    <!-- Navbar -->
 
-<div class="nav">
-    <div class="container">
+    <div class="nav">
+      <div class="container">
         <div class="pull-left">
-            <a href="http://www.premiertutorsgroup.com/">
-                <img src="{% static "assets/Logo.png" %}" alt="Logo" id="logo"/>
+        	<a href="http://www.premiertutorsgroup.com/">
+			<img src="Image/Logo.png" alt="Logo" id="logo" />
             </a>
         </div>
         <ul class="pull-right">
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/tutors">Our Tutors</a></li>
-            <li><a href="/services">Our Services</a></li>
-            <li><a href="/prices">Prices</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="/contact-us">Contact Us</a></li>
+          <li><a href="http://www.premiertutorsgroup.com/about-us">About Us</a></li>
+          <li><a href="http://www.premiertutorsgroup.com/our-tutors">Our Tutors</a></li>
+          <li><a href="http://www.premiertutorsgroup.com/our-services">Our Services</a></li>
+          <li><a href="http://www.premiertutorsgroup.com/prices">Prices</a></li>
+          <li><a href="http://www.premiertutorsgroup.com/contact-us">Contact Us</a></li>
         </ul>
         <div class="pull-right arrow"></div>
+      </div>   
     </div>
-</div>
 
-<!-- Header -->
+    <!-- Header -->
 
-<div class="our-tutors">
+    <div class="our-tutors">
 
     <div class="container">
 
-        <div class="row page-image">
-            <div class="col-md-12 page-head">
-                <center><h1>Our Tutors</h1></center>
-            </div>
+      <div class="row page-image">
+        <div class="page-overlay">
+        <div class="col-md-12 page-head">
+          <center><h1>Our Tutors</h1></center>
         </div>
+      </div>
+      </div>
 
-        <!-- Header Description -->
+    <!-- Header Description -->
 
-        <div class="row head-desc">
-            <div class="col-md-12">
-                <p class="purple">Aces que nobitet et porae ent vitatin nullore non culluptas dolores delentia derat
-                    vollibus alit laccab in provita
-                    spissitiorro et ad esti dolupta turepta sperum et lam, cusdaniet optam quo omnihici oditati sit
-                    audantium undia
-                    ex et quid expe dignim apidel is am, que eicab idi solupta consequibus ea ni del es sam ra sit
-                    explis acidel iminis
-                    nistiam rectet eos audigen temqui anis eiciis et a quametu sdantiusci optisqui berrovid molo
-                    blaborum.</p>
-            </div>
+      <div class="row head-desc">
+        <div class="col-md-12">
+          <p class="purple">Each member of our dedicated team of tutors are university undergraduates or graduates with experience in tutoring. Our experience in different areas of study means we're ideally suited to provide guidance to all our students, whether it's about your grades, exams, or if you're not sure how to study - our tutors are happy to help!</p>
         </div>
+      </div>
 
-        <!-- Tutors -->
+      <div class="top-space"></div>
 
-        <br/>
+    <!-- Tutors -->
 
-        <div class="row row-center">
-            {% for tutor in tutors_list %}
-                <a href="{{ tutor.id }}"><div class="col-xs-4 col-centered col-fixed profile">
-                    <div class="box box{{ tutor.id }}">
-                        <div class="wrapper reveal-partial"></div>
-                        <div class="info reveal-full">
-                            <h2>{{ tutor.first_name.upper }} {{ tutor.last_name.upper }}</h2></br>
-                            <p class="text-center"> {% for subject in tutor.tutorsubject_set.all %}
-                                {{ subject }}<br/>
-                            {% endfor %}
-                            </p>
-                        </div>
-                    </div>
-                </div></a>
-            {% endfor %}
+    <div class="row row-center">
+      <div class="col-md-4">
+        <div class="cover">
+          <a href="#" class="tutor-link" style="text-decoration: none;"><h5>Adam Smith</h5></a>
+          <h6>Tutor <br />
+          Math & Engineering</h6>
         </div>
+        <img src="Image/Tutor.png" class="tutor" />
+      </div>
 
-        <br/>
+      <div class="col-md-4">
+        <div class="cover">
+          <a href="#" class="tutor-link" style="text-decoration: none;"><h5>Adam Smith</h5></a>
+          <h6>Tutor <br />
+          Math & Engineering</h6>
+        </div>
+        <img src="Image/Tutor.png" class="tutor" />
+      </div>
+
+      <div class="col-md-4">
+        <div class="cover">
+          <a href="#" class="tutor-link" style="text-decoration: none;"><h5>Adam Smith</h5></a>
+          <h6>Tutor <br />
+          Math & Engineering</h6>
+        </div>
+        <img src="Image/Tutor.png" class="tutor" />
+      </div>
+
+      <div class="col-md-4">
+        <div class="cover">
+          <a href="#" class="tutor-link" style="text-decoration: none;"><h5>Adam Smith</h5></a>
+          <h6>Tutor <br />
+          Math & Engineering</h6>
+        </div>
+        <img src="Image/Tutor.png" class="tutor" />
+      </div>
+
+      <div class="col-md-4">
+        <div class="cover">
+          <a href="#" class="tutor-link" style="text-decoration: none;"><h5>Adam Smith</h5></a>
+          <h6>Tutor <br />
+          Math & Engineering</h6>
+        </div>
+        <img src="Image/Tutor.png" class="tutor" />
+      </div>
+
+      <div class="col-md-4">
+        <div class="cover">
+          <a href="#" class="tutor-link" style="text-decoration: none;"><h5>Adam Smith</h5></a>
+          <h6>Tutor <br />
+          Math & Engineering</h6>
+        </div>
+        <img src="Image/Tutor.png" class="tutor" />
+      </div>
+    </div>
 
     </div>
 
-</div>
+    </div>
 
-<!-- Footer -->
+    <div class="bottom-space"></div>
 
-<div class="footer">
-    <div class="container">
+    <!-- Footer -->
+
+    <div class="footer">
+      <div class="container">
         <div class="pull-left">
-            <p class="footer-text">Copyright &#169; Premier Tutors Group 2015</p>
+          <p class="footer-text">Copyright &#169; Premier Tutors Group 2015
+          <img src="Image/Space.png" class="social-media"/></p>
         </div>
-        <ul class="pull-right">
-            <li class="footer-text">Follow us</li>
-            <li><a href="https://www.facebook.com/premiertutorsgroup?fref=ts"><img
-                    src="{% static "assets/Facebook.png" %}" alt="Facebook" class="social-media"/></a></li>
-            <li><a href="http://www.twitter.com"><img src="{% static "assets/Twitter.png" %}" alt="Twitter"
-                                                      class="social-media"/></a></li>
-            <li><a href="http://www.instagram.com"><img src="{% static "assets/Instagram.png" %}" alt="Instagram"
-                                                        class="social-media"/></a></li>
-        </ul>
+        <div class="pull-right">
+          <p class="footer-text">Follow us
+            <a href="https://www.facebook.com/premiertutorsgroup?fref=ts">
+            <img src="Image/Facebook.png" alt="Facebook" class="social-media"
+            onmouseover="this.src='Image/FacebookYellow.png';" onmouseout="this.src='Image/Facebook.png';"/></a></p>
+        </div>
+      </div>   
     </div>
-</div>
 
 </body>
 
